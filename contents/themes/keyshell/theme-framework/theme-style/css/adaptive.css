@@ -58,6 +58,9 @@
     .cmsmasters_row_title_wrap {
         width: 1200px;
     }
+    .slider-header-main-slide-2-mobile{
+        display: none !important;
+    }
 }
 
 @media only screen and (min-width: 1025px) {
@@ -703,6 +706,15 @@
         float: none;
         clear: both;
     }
+    .slider-header-main-slide-1{
+        font-size: 25px !important;
+    }
+    .slider-header-main-slide-2, .slider-header-main-slide-2-mobile{
+        font-size: 25px !important;
+    }
+    .slider-header-main-slide-2{
+        display: none !important;
+    }
     #header .header_mid .header_mid_inner {
         padding: 20px 0 0;
         text-align: center;
@@ -712,6 +724,9 @@
         float: none;
         margin: 0 15px 30px;
         text-align: center;
+        display: flex;
+        justify-content: space-between;
+        align-items: baseline;
     }
     #header .header_mid .logo_wrap:after {
         content: none;

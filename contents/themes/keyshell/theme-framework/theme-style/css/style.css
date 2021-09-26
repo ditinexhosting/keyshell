@@ -11194,3 +11194,18 @@ html.csstransitions .cmsmasters_column_sticky {
         opacity: 1;
     }
 }
+
+
+
+
+
+
+
+/*
+ * Custom added CSS
+ */
+.course-logo{
+    max-width: 150px;
+    width: auto;
+    height: 100px;
+}
