@@ -1,0 +1,10 @@
+[30-Apr-2021 17:11:12 UTC] PHP Notice:  Undefined index: email in /home/ow5fqijgtiou/public_html/webinar.keyshell.net/mail/index.php on line 15
+[30-Apr-2021 17:11:12 UTC] PHP Notice:  Undefined index: name in /home/ow5fqijgtiou/public_html/webinar.keyshell.net/mail/index.php on line 35
+[30-Apr-2021 17:11:12 UTC] PHP Notice:  Undefined index: email in /home/ow5fqijgtiou/public_html/webinar.keyshell.net/mail/index.php on line 35
+[30-Apr-2021 17:11:12 UTC] PHP Notice:  Undefined index: phone in /home/ow5fqijgtiou/public_html/webinar.keyshell.net/mail/index.php on line 35
+[30-Apr-2021 17:11:12 UTC] PHP Notice:  Undefined index: company in /home/ow5fqijgtiou/public_html/webinar.keyshell.net/mail/index.php on line 35
+[30-Apr-2021 17:11:12 UTC] PHP Notice:  Undefined index: experience in /home/ow5fqijgtiou/public_html/webinar.keyshell.net/mail/index.php on line 35
+[01-May-2021 04:38:51 UTC] PHP Fatal error:  Uncaught Error: Class 'SMTP' not found in /home/ow5fqijgtiou/public_html/webinar.keyshell.net/mail/index.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/ow5fqijgtiou/public_html/webinar.keyshell.net/mail/index.php on line 25
