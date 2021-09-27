@@ -53,7 +53,7 @@ try {
     $mail->AltBody = 'This is the body in plain text for non-HTML mail clients';
 
     $mail->send();
-    echo 'Registration successfull. The YouTube live URL will be mailed before 48 hours.';
+    echo 'Thank you for contacting Keyshell. Our team will get back to you.';
 } catch (Exception $e) {
     echo "Message could not be sent. Mailer Error: {$mail->ErrorInfo}";
 }
@@ -87,7 +87,7 @@ try {
     $mail->isHTML(true);                                  //Set email format to HTML
     $mail->Subject = 'Registration Details';
     $mail->msgHTML(
-    "Thank you for registering Keyshell Webinar. The YouTube live URL will be mailed before 48 hours."
+    "Thank you for contacting Keyshell. Our team will get back to you."
     );
     $mail->AltBody = 'This is the body in plain text for non-HTML mail clients';
 
