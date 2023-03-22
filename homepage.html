@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Hoempage</title>
     <script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
@@ -41,11 +41,11 @@
         <i class="fa-solid fa-bars text-xl text-indigo-500" id="navbar-toggle"></i>
       </div>
       <ul id="navbar-menu" class="hidden md:flex md:items-center mt-4 md:mt-0 gap-5 font-semibold">
-        <li class="border-b-2 border-[#E89B19] px-1">
+        <li class="border-b-2 border-[#E89B19] px-1 pt-[4px]">
           <a href="#" class="text-[#333] text-lg hover:text-gray-500">Home</a>
         </li>
         <li class="px-1">
-          <a href="#" class="text-[#333] text-lg hover:text-gray-500">About</a>
+          <a href="aboutUs.html" class="text-[#333] text-lg hover:text-gray-500">About</a>
         </li>
         <li class="px-1">
           <a href="#" class="text-[#333] text-lg hover:text-gray-500">Services</a>
@@ -65,7 +65,7 @@
 
     <nav class="px-3 mt-4 text-[whitesmoke]">
       <a href="/" class="block font-bold py-2 hover:text-gray-300 w-full bg-sky-500/60 px-3 rounded-md">Home</a>
-      <a href="/about" class="block font-bold py-2 hover:text-red-500 px-3">About Us</a>
+      <a href="/aboutUs.html" class="block font-bold py-2 hover:text-red-500 px-3">About Us</a>
       <a href="/services" class="block font-bold py-2 hover:text-red-500 px-3">Services</a>
       <a href="/contact" class="block font-bold py-2 hover:text-red-500 px-3">Contact Us</a>
     </nav>
@@ -285,14 +285,6 @@
 </body>
 
 <script>
-  const cards = document.querySelectorAll('.card-animation');
-    cards.forEach(card => {
-      card.addEventListener('click', () => {
-        cards.forEach(c => c.classList.remove('z-10'));
-        card.classList.add('z-10');
-      });
-    });
-
   const navbarMenu = document.getElementById('navbar-menu');
 const navbarToggle = document.getElementById('navbar-toggle');
 const navbarDrawer = document.getElementById('navbar-drawer');
