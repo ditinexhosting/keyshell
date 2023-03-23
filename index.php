@@ -9,22 +9,26 @@ include 'header.php';
       <h1 class="text-4xl md:text-5xl font-semibold tracking-wider text-gray-600">DevOps Services and Solutions</h1>
       <p class="text-[#5A5453] text-base md:text-lg pb-10 pt-10 tracking-wider md:pr-5">Our DevOps team helps organizations optimize and streamline their software development lifecycle. We offer a range of services including integration with cloud, continuous integration and continuous delivery (CI/CD), GitOps, containerization, DevSecOps, AI/ML</p>
       <div class="flex h-auto w-full flex justify-center md:justify-start items-center">
-          <button class="bg-gray-600 hover:bg-[#5A5453] text-white rounded-tl-2xl rounded-br-2xl rounded-sm px-10 py-3">Get Started <i class="fa-solid fa-arrow-right pl-[5px] text-lg"></i></button>
+          <button class="bg-gray-600 hover:bg-[#5A5453] text-white rounded-tl-2xl rounded-br-2xl rounded-sm px-10 py-3 font-semibold text-lg tracking-wider">Let's Talk<i class="fa-solid fa-arrow-right pl-[5px] text-lg"></i></button>
       </div>
     </div>
 
     <div class="right w-full md:w-1/2 flex justify-center items-center">
-      <img src="heroImage.png" alt="DevOps Services and Solutions" class="h-4/5 w-4/5 max-h-[400px] max-w-[400px]">
+      <img src="assets\images\heroImage.png" alt="DevOps Services and Solutions" class="h-4/5 w-4/5 max-h-[400px] max-w-[400px]">
     </div>
   </section>
 
+  <div class="py-8 flex justify-center items-center">
+    <p class="font-bold text-2xl text-[#333] border-b-2 border-[#E89B19] px-4 pb-2">What We Offers <strong class="text-blue-600 pl-1">?</strong></p>
+  </div>
+
   <section class="services py-6 pb-8 px-5 md:px-10">
     <div class="flex justify-center items-center flex-wrap gap-x-10 gap-y-10">
-      <div class="w-72 bg-white relative overflow-hidden transition duration-300 transform border rounded shadow-md hover:scale-105 group hover:shadow-xl">
+      <div class="w-72 bg-white shadow-md">
           <div class="relative rounded-sm ">
               <div class="flex justify-start items-center gap-3 py-2 px-4">
                   <div class="flex items-center justify-center w-10 h-10 rounded-full  lg:mb-0">
-                      <img src="https://keyshell.net/contents/uploads/2017/04/python.png" />
+                      <img src="assets\images\python.png" />
                   </div>
                   <h6 class="font-semibold leading-5 text-black">Python</h6>
               </div>
@@ -38,11 +42,11 @@ include 'header.php';
           </div>
       </div>
 
-      <div class="w-72 bg-white relative overflow-hidden transition duration-300 transform border rounded shadow-md hover:scale-105 group hover:shadow-xl">
-        <div class="relative rounded-sm ">
+      <div class="w-72 bg-white shadow-md">
+          <div class="relative rounded-sm ">
             <div class="flex justify-start items-center gap-3 py-2 px-4">
                 <div class="flex items-center justify-center w-10 h-10 rounded-full  lg:mb-0">
-                    <img src="https://keyshell.net/contents/uploads/2017/04/aws.png" />
+                    <img src="assets\images\aws.png" />
                 </div>
                 <h6 class="font-semibold leading-5 text-black">AWS</h6>
             </div>
@@ -56,11 +60,11 @@ include 'header.php';
         </div>
       </div>
 
-      <div class="w-72 bg-white relative overflow-hidden transition duration-300 transform border rounded shadow-md hover:scale-105 group hover:shadow-xl">
+      <div class="w-72 bg-white shadow-md">
         <div class="relative rounded-sm ">
             <div class="flex justify-start items-center gap-3 py-2 px-4">
                 <div class="flex items-center justify-center w-10 h-10 rounded-full  lg:mb-0">
-                    <img src="https://keyshell.net/contents/uploads/2017/04/devops.png" />
+                    <img src="assets\images\devops.png" />
                 </div>
                 <h6 class="font-semibold leading-5 text-black">DevOps</h6>
             </div>
@@ -74,11 +78,11 @@ include 'header.php';
         </div>
       </div>
 
-      <div class="w-72 bg-white relative overflow-hidden transition duration-300 transform border rounded shadow-md hover:scale-105 group hover:shadow-xl">
+      <div class="w-72 bg-white shadow-md">
         <div class="relative rounded-sm ">
             <div class="flex justify-start items-center gap-3 py-2 px-4">
                 <div class="flex items-center justify-center w-10 h-10 rounded-full  lg:mb-0">
-                    <img src="https://keyshell.net/contents/uploads/2017/04/php.png" />
+                    <img src="assets\images\php.png" />
                 </div>
                 <h6 class="font-semibold leading-5 text-black">PHP</h6>
             </div>
@@ -92,11 +96,11 @@ include 'header.php';
         </div>
       </div>
 
-      <div class="w-72 bg-white relative overflow-hidden transition duration-300 transform border rounded shadow-md hover:scale-105 group hover:shadow-xl">
+      <div class="w-72 bg-white shadow-md">
         <div class="relative rounded-sm ">
             <div class="flex justify-start items-center gap-3 py-2 px-4">
                 <div class="flex items-center justify-center w-10 h-10 rounded-full  lg:mb-0">
-                    <img src="https://keyshell.net/contents/uploads/2017/04/asp.png" />
+                    <img src="assets\images\asp.png" />
                 </div>
                 <h6 class="font-semibold leading-5 text-black">ASP.Net</h6>
             </div>
@@ -110,11 +114,11 @@ include 'header.php';
         </div>
       </div>
 
-      <div class="w-72 bg-white relative overflow-hidden transition duration-300 transform border rounded shadow-md hover:scale-105 group hover:shadow-xl">
+      <div class="w-72 bg-white shadow-md">
         <div class="relative rounded-sm ">
             <div class="flex justify-start items-center gap-3 py-2 px-4">
                 <div class="flex items-center justify-center w-10 h-10 rounded-full  lg:mb-0">
-                    <img src="https://keyshell.net/contents/uploads/2017/04/linux.png" />
+                    <img src="assets\images\linux.png" />
                 </div>
                 <h6 class="font-semibold leading-5 text-black">Redhat</h6>
             </div>
@@ -128,11 +132,11 @@ include 'header.php';
         </div>
       </div>
 
-      <div class="w-72 bg-white relative overflow-hidden transition duration-300 transform border rounded shadow-md hover:scale-105 group hover:shadow-xl">
+      <div class="w-72 bg-white shadow-md">
         <div class="relative rounded-sm ">
             <div class="flex justify-start items-center gap-3 py-2 px-4">
                 <div class="flex items-center justify-center w-10 h-10 rounded-full  lg:mb-0">
-                    <img src="https://keyshell.net/contents/uploads/2017/04/mean.png" />
+                    <img src="assets\images\mean.png" />
                 </div>
                 <h6 class="font-semibold leading-5 text-black">MEA(R)N</h6>
             </div>
@@ -149,25 +153,81 @@ include 'header.php';
 </div>
   </section>
 
-  <section class="hero-section shadow-xl py-8 px-5 sm:px-12 lg:px-24 flex flex-col md:flex-row min-h-[85vh] w-full justify-center items-center">
-    <div class="left w-full md:w-1/2 flex justify-center items-center bg-white min-h-[300px] md:min-h-[400px]">
-      <!-- <img src="https://img.freepik.com/free-vector/successful-business-man-with-trophy_1150-35038.jpg?w=740&t=st=1679429671~exp=1679430271~hmac=4f5e4a3682e745d3b8a2e943f49a441bac7ff31826c485843dfc423d7955d903" alt="DevOps Services and Solutions" class="max-h-[350px] sm:max-h-[370px] sm:max-w-[335px] lg:max-w-[400px] lg:max-h-[400px]"> -->
-      <img src="https://img.freepik.com/free-vector/goal-achievement-teamwork-business-concept-career-growth-cooperation-development-project_107791-29.jpg?1&w=740&t=st=1679472553~exp=1679473153~hmac=a3512ba7a1584c7bcb1b25d3960e42eaa10305ac8067fa7b070140dc4b3b7810" class="max-h-[350px] sm:max-h-[370px] sm:max-w-[335px] lg:max-w-[400px] lg:max-h-[400px]">
+  <section class="min-h-[60vh] w-full px-5 sm:px-10 md:px-0 pr-5 sm:pr-10 md:pr-11 lg:pr-16 py-14 flex flex-col md:flex-row">
+    <div class="flex justify-center items-center min-h-[400px] w-full md:w-[45%] lg:w-[35%]">
+        <img src="assets\images\Server.gif" alt="" class="h-96 md:h-72 w-96 md:w-72" />
     </div>
-  
-    <div class="right w-full md:w-1/2 flex flex-col justify-center items-center gap-y-9 md:gap-y-8 lg:gap-y-14 bg-white h-[240px] md:h-[400px]">
-      <h4 class="px-5 sm:px-10 text-xl lg:text-2xl text-center md:text-start font-semibold text-[#333] tracking-wide md:tracking-normal lg:tracking-wide">Join us today and take the first step towards mastering the skills you need to succeed in the exciting world of tech.</h4>
-        <a href="#_" class="w-40 relative shadow-md inline-flex items-center justify-start py-3 pl-4 pr-12 overflow-hidden font-semibold text-indigo-600 transition-all duration-150 ease-in-out rounded hover:pl-10 hover:pr-6 bg-gray-50 group">
-          <span class="absolute bottom-0 left-0 w-full h-1 transition-all duration-150 ease-in-out bg-indigo-600 group-hover:h-full"></span>
-          <span class="absolute right-0 pr-4 duration-200 ease-out group-hover:translate-x-12">
-          <svg class="w-5 h-5 text-green-400" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path></svg>
-          </span>
-          <span class="absolute left-0 pl-2.5 -translate-x-12 group-hover:translate-x-0 ease-out duration-200">
-          <svg class="w-5 h-5 text-green-400" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path></svg>
-          </span>
-          <span class="relative w-full text-left transition-colors duration-200 ease-in-out group-hover:text-white">Contact Us</span>
-        </a>
+    <div class="w-full md:w-[55%] lg:w-[65%]">
+        <h2 class="mb-10 text-3xl max-w-lg md:max-w-2xl text-[#333] font-bold leading-snug lg:text-3xl lg:leading-snug">A <span class="text-[#E89B19]">revolutionary</span> way to manage servers.</h2>
+        <div class="grid gap-y-12 gap-x-8 lg:grid-cols-2 grid-rows-2">
+            <div>
+                <p class="mb-6 border-l-4 border-[#E89B19] pl-3 lg:pl-4 text-2xl leading-10">Faster Deployment
+                </p>
+                <p class=" text-gray-800 pr-2">DevOps aims at reducing the software development life cycle, which in turn, enables businesses to deploy their products quickly.</p>
+            </div>
+            <div>
+                <p class="mb-6 border-l-4 border-[#E89B19] pl-3 lg:pl-4 text-2xl leading-10">Improved Collaboration</p>
+                <p class=" text-gray-800 pr-2">DevOps provides the much-needed atmosphere to development and operational teams for mutual communication and collaboration.</p>
+            </div>
+            <div>
+                <p class="mb-6 border-l-4 border-[#E89B19] pl-3 lg:pl-4 text-2xl leading-10">Promotes Agility </p>
+                <p class="text-gray-800 pr-2">With DevOps, it is feasible to acquire the scalability needed to gain a competitive advantage in the market.</p>
+            </div>
+            <div>
+                <p class="mb-6 border-l-4 border-[#E89B19] pl-3 lg:pl-4 text-2xl leading-10">Early Defect Detection</p>
+                <p class=" text-gray-800 pr-2">The continuous monitoring and testing environment of DevOps helps in detecting the flaws in the early stages.</p>
+            </div>
+        </div>
     </div>
-  </section>
+</section>
+
+<section class="px-5 md:px-10 lg:px-32 py-10">
+    <div class="min-h-[61vh] w-full bg-no-repeat bg-cover bg-center shadow-xl bg-[url('assets/images/white-bg.avif')]">
+      <div class="top min-h-[15vh] w-full rounded-b-[50px] pb-2 px-5 md:px-2 bg-no-repeat bg-cover bg-center bg-[url('assets/images/blue-image.jpg')]">
+        <h2 class="text-center font-bold text-2xl text-emerald-300/90 py-4 pb-4 block md:hidden">Get In Touch</h2>
+
+        <div class="flex flex-col md:flex-row px-5 gap-y-3 gap-x-6 justify-start md:justify-evenly items-start py-3 md:py-3 pb-5 md:pb-1">
+          <div class="one flex gap-3.5 md:gap-2 justify-center items-start">
+            <i class="fa-sharp fa-solid fa-phone text-lg text-[#E89B19]"></i>
+            <h3 class="font-semibold text-md text-[whitesmoke]">+918129571359</h3>
+          </div>
+          <div class="two flex gap-4 md:gap-2 justify-center items-start pl-0 md:pl-8">
+            <i class="fa-solid fa-location-dot text-xl text-[#E89B19]"></i>
+            <h3 class="font-semibold text-md max-w-md text-[whitesmoke]">First floor Carnival Infopark Phase1 Infopark, Kakkanad, Kochi, Kerala 682042, India</h3>
+          </div>
+          <div class="three flex gap-3.5 md:gap-2 justify-center items-start">
+            <i class="fa-solid fa-envelope text-lg text-[#E89B19]"></i>
+            <h3 class="font-semibold text-md text-[whitesmoke]">keyshell3455@gmail.com</h3>
+          </div>
+        </div>
+
+        <h2 class="text-center font-bold text-2xl text-emerald-300/90 py-4 pb-4 hidden md:block">Get In Touch</h2>
+      </div>
+
+      <div class="bottom min-h-[50vh] w-full flex flex-col gap-8 flex justify-center items-center py-8">
+            <div class="flex gap-5 lg:gap-10 flex-col sm:flex-row">
+                <input type="text" required placeholder="Name" class="w-[300px] sm:w-64 md:w-72 lg:w-80 border-0 bg-[#F5F5F5] shadow-md py-2 sm:py-3">
+                <input type="text" required placeholder="Subject" class="w-[300px] sm:w-64 md:w-72 lg:w-80 border-0 bg-[#F5F5F5] shadow-md py-2 sm:py-3">
+            </div>
+
+            <div class="flex gap-5 lg:gap-10 flex-col sm:flex-row">
+                <input type="email" required placeholder="Email" class="w-[300px] sm:w-64 md:w-72 lg:w-80 border-0 bg-[#F5F5F5] shadow-md py-2 sm:py-3">
+                <input type="text" required placeholder="Phone" class="w-[300px] sm:w-64 md:w-72 lg:w-80 border-0 bg-[#F5F5F5] shadow-md py-2 sm:py-3">
+            </div>
+
+            <textarea placeholder="Your Message" class="w-[300px] sm:w-[535px] md:w-[595px] lg:w-[680px] border-0 bg-[#F5F5F5] shadow-md py-2 sm:py-3"></textarea>
+
+            <div class="w-full flex justify-center items-center">
+                <a href="#_" class="px-5 py-2.5 relative rounded group font-medium text-white font-medium inline-block">
+                  <span class="absolute top-0 left-0 w-full h-full rounded opacity-50 filter blur-sm bg-gradient-to-br from-purple-600 to-blue-500"></span>
+                  <span class="h-full w-full inset-0 absolute mt-0.5 ml-0.5 bg-gradient-to-br filter group-active:opacity-0 rounded opacity-50 from-purple-600 to-blue-500"></span>
+                  <span class="absolute inset-0 w-full h-full transition-all duration-200 ease-out rounded shadow-xl bg-gradient-to-br filter group-active:opacity-0 group-hover:blur-sm from-purple-600 to-blue-500"></span>
+                  <span class="absolute inset-0 w-full h-full transition duration-200 ease-out rounded bg-gradient-to-br to-purple-600 from-blue-500"></span>
+                  <span class="relative">Contact Me!</span>
+                </a>
+            </div>
+      </div>
+    </div>
+</section>
 
   <?php include 'footer.php';?>
