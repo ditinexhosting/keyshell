@@ -2,6 +2,4 @@
 deployment:
   tasks:
     - export DEPLOYPATH=/home/keyshell/public_html/staging/
-    - /bin/cp assets $DEPLOYPATH
-    - /bin/cp *.html $DEPLOYPATH
-    - /bin/cp *.php $DEPLOYPATH
+    - /bin/cp -r * $DEPLOYPATH
