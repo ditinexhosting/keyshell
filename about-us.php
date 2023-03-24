@@ -4,7 +4,7 @@ $metatags = '';
 include 'header.php';
 ?>
 
-    <section class="min-h-[60vh] md:min-h-[82vh] bg-no-repeat bg-cover bg-center relative bg-[url('assets/images/aboutUs-bgImage.jpg')]">
+    <section class="min-h-[60vh] md:min-h-[82vh] bg-no-repeat bg-cover bg-center relative bg-[url('assets/images/aboutUs-bgImage-min.jpg')]">
         <div class="min-h-[65vh] md:min-h-[82vh] w-full flex flex-col justify-center items-center gap-8 sm:gap-12 px-4 md:px-16 lg:px-32 relative z-10">
           <h2 class="text-center font-bold text-3xl sm:text-4xl text-[whitesmoke] tracking-wider">Welcome to Keyshell</h2>
           <p class="text-center text-md sm:text-xl font-semibold leading-relaxed text-gray-200 max-w-xl">In Keyshell, we spread knowledge and help youngsters familiarize themselves with the latest technologies. Experienced professionals provide the best technical education with advanced resources.Certified workshops and placement assistance are our key features.</p>
@@ -25,7 +25,7 @@ include 'header.php';
     <section class="pt-5 px-5 sm:px-10 lg:px-20">
         <div class="min-h-[350px] w-full flex flex-col md:flex-row justify-center items-center gap-x-5 lg:gap-x-0">
             <div class="left h-[320px] sm:h-[350px] w-full md:w-2/5 flex justify-center items-center">
-                <img src="assets\images\code-typing.gif" alt="variety" class="h-[290px] sm:h-[320px] w-[290px] sm:w-[320px]">
+                <img src="assets\images\code-typing-min.gif" alt="variety" class="h-[290px] sm:h-[320px] w-[290px] sm:w-[320px]">
             </div>
 
             <div class="right min-h-[240px] md:h-[350px] w-full md:w-2/5 flex justify-center items-center">
@@ -41,7 +41,7 @@ include 'header.php';
             </div>
 
             <div class="right h-[350px] w-full md:w-2/5 flex justify-center items-center">
-                <img src="assets\images\quality.gif" alt="variety" class="h-[290px] sm:h-[320px] w-[290px] sm:w-[320px]">
+                <img src="assets\images\quality-min.gif" alt="variety" class="h-[290px] sm:h-[320px] w-[290px] sm:w-[320px]">
             </div>
         </div>
     </section>

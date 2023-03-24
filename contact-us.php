@@ -6,7 +6,7 @@ include 'header.php';
 
 <form action="#" class="contact min-h-[90vh] w-full flex shadow-xl relative pl-0 sm:pl-16" autocomplete="off">
   <div class="absolute inset-0 z-[-1]">
-    <img src="assets\images\contact-us-bgImage.jpeg" alt="Background image" class="object-cover w-full h-full">
+    <img src="assets\images\contact-us-bgImage-min.jpeg" alt="Background image" class="object-cover w-full h-full">
   </div>
   <div class="min-h-[90vh] w-full flex flex-col gap-10 px-10 md:px-0 justify-center items-center sm:items-start pt-0 sm:pt-4 backdrop-filter backdrop-blur-sm">
     <div class="one flex flex-col sm:flex-row gap-10">
