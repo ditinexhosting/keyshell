@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <?php echo $metatags; ?>
     <title><?php echo $title; ?></title>
+    <link rel="stylesheet" href="assets\css\global.css">
     <script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
@@ -53,7 +54,7 @@
           <a href="#" class="text-[#333] text-lg hover:text-gray-500">Services</a>
         </li>
         <li class="px-1">
-          <a href="#" class="text-[#333] text-lg hover:text-gray-500">Contact Us</a>
+          <a href="contact-us.php" class="text-[#333] text-lg hover:text-gray-500">Contact Us</a>
         </li>
       </ul>
     </nav>
@@ -67,9 +68,9 @@
     </div>
 
     <nav class="px-3 mt-4 text-[whitesmoke]">
-      <a href="index.php" class="block font-bold py-2 hover:text-gray-300 w-full bg-sky-500/60 px-3 rounded-md">Home</a>
-      <a href="about-us.php" class="block font-bold py-2 hover:text-red-500 px-3">About Us</a>
-      <a href="#" class="block font-bold py-2 hover:text-red-500 px-3">Services</a>
-      <a href="#" class="block font-bold py-2 hover:text-red-500 px-3">Contact Us</a>
+      <a href="index.php" class="block font-semibold py-2 hover:text-gray-300 w-full bg-sky-500/60 px-3 rounded-md">Home</a>
+      <a href="about-us.php" class="block font-semibold py-2 hover:text-red-500 px-3">About Us</a>
+      <a href="#" class="block font-semibold py-2 hover:text-red-500 px-3">Services</a>
+      <a href="contact-us.php" class="block font-semibold py-2 hover:text-red-500 px-3">Contact Us</a>
     </nav>
   </div> 

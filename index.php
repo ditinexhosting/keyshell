@@ -19,7 +19,7 @@ include 'header.php';
   </section>
 
   <div class="py-8 flex justify-center items-center">
-    <p class="font-bold text-2xl text-[#333] border-b-2 border-[#E89B19] px-4 pb-2">What We Offers <strong class="text-blue-600 pl-1">?</strong></p>
+    <p class="font-semibold text-2xl text-[#333] border-b-2 border-[#E89B19] px-4 pb-2">What We Offers <strong class="text-blue-600 pl-1">?</strong></p>
   </div>
 
   <section class="services py-6 pb-8 px-5 md:px-10">
