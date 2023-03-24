@@ -181,8 +181,44 @@ include 'header.php';
     </div>
 </section>
 
-<section class="px-5 md:px-10 lg:px-32 py-10" id="contact">
-    <div class="min-h-[61vh] w-full bg-no-repeat bg-cover bg-center shadow-xl bg-[url('assets/images/white-bg.avif')]">
+<section class="px-20 py-14">
+  <div class="main min-h-[60vh] flex flex-wrap justify-center items-center gap-10">
+    <div class="card flex flex-col gap-6 justify-start items-center h-96 w-72 shadow-lg hover:shadow-xl px-5 pt-5" data-aos="flip-left" data-aos="fade-up" data-aos-anchor-placement="top-center">
+      <img src="assets/images/fence.png" alt="" class="h-16 w-16">
+      <h1 class="font-semibold text-2xl">Supply Chain</h1>
+      <p class="text-center">Partnered with a San Diego based banking and finance institution to make a smooth transition to agile Cloud infrastructure. This, in turn, improved the scalability and automated infrastructure provisioning.</p>
+    </div>
+    <div class="card flex flex-col gap-6 justify-start items-center h-96 w-72 shadow-lg hover:shadow-xl px-5 pt-5" data-aos="flip-left" data-aos="fade-up" data-aos-anchor-placement="top-center">
+      <img src="assets/images/labour-day.png" alt="" class="h-16 w-16">
+      <h1 class="font-semibold text-2xl">Healthcare</h1>
+      <p class="text-center">Worked with a leading healthcare institution to help them manage their operations with our expert DevOps monitoring and support to identify and fix issues and bugs across the range of their internal.</p>
+    </div>
+    <div class="card flex flex-col gap-6 justify-start items-center h-96 w-72 shadow-lg hover:shadow-xl px-5 pt-5" data-aos="flip-left" data-aos="fade-up" data-aos-anchor-placement="top-center">
+      <img src="assets/images/nut.png" alt="" class="h-16 w-16">
+      <h1 class="font-semibold text-2xl">Manufacturing</h1>
+      <p class="text-center">Provided Devops consulting to a leading manufacturing giant to help them evolve their business using cloud. We reachitected their portfolio using our proven RAPADIT framework.</p>
+    </div>
+    <div class="card flex flex-col gap-6 justify-start items-center h-96 w-72 shadow-lg hover:shadow-xl px-5 pt-5" data-aos="flip-left" data-aos="fade-up" data-aos-anchor-placement="top-center">
+      <img src="assets/images/tools.png" alt="" class="h-16 w-16">
+      <h1 class="font-semibold text-2xl">Travel</h1>
+      <p class="text-center">Provided Devops consulting to a leading manufacturing giant to help them evolve their business using cloud. We reachitected their portfolio using our proven RAPADIT framework.</p>
+    </div>
+    <div class="card flex flex-col gap-6 justify-start items-center h-96 w-72 shadow-lg hover:shadow-xl px-5 pt-5" data-aos="flip-left" data-aos="fade-up" data-aos-anchor-placement="top-center">
+      <img src="assets/images/pick.png" alt="" class="h-16 w-16">
+      <h1 class="font-semibold text-2xl">Hospitality</h1>
+      <p class="text-center">Provided Devops consulting to a leading manufacturing giant to help them evolve their business using cloud. We reachitected their portfolio using our proven RAPADIT framework.</p>
+    </div>
+    <div class="card flex flex-col gap-6 justify-start items-center h-96 w-72 shadow-lg hover:shadow-xl px-5 pt-5" data-aos="flip-left" data-aos="fade-up" data-aos-anchor-placement="top-center">
+      <img src="assets/images/labour-day.png" alt="" class="h-16 w-16">
+      <h1 class="font-semibold text-2xl">Finance</h1>
+      <p class="text-center">Provided Devops consulting to a leading manufacturing giant to help them evolve their business using cloud. We reachitected their portfolio using our proven RAPADIT framework.</p>
+    </div>
+  </div>
+</section>
+
+
+<section class="next px-5 md:px-10 lg:px-32 py-10" id="contact">
+    <form class="min-h-[61vh] w-full bg-no-repeat bg-cover bg-center shadow-xl bg-[url('assets/images/white-bg.avif')]">
       <div class="top min-h-[15vh] w-full rounded-b-[50px] pb-2 px-5 md:px-2 bg-no-repeat bg-cover bg-center bg-[url('assets/images/blue-image-min.jpg')]">
         <h2 class="text-center font-bold text-2xl text-emerald-300/90 py-4 pb-4 block md:hidden">Get In Touch</h2>
 
@@ -218,16 +254,10 @@ include 'header.php';
             <textarea placeholder="Your Message" class="w-[300px] sm:w-[535px] md:w-[595px] lg:w-[680px] border-0 bg-[#F5F5F5] shadow-md py-2 sm:py-3"></textarea>
 
             <div class="w-full flex justify-center items-center">
-                <a href="#_" class="px-5 py-2.5 relative rounded group font-medium text-white font-medium inline-block">
-                  <span class="absolute top-0 left-0 w-full h-full rounded opacity-50 filter blur-sm bg-gradient-to-br from-purple-600 to-blue-500"></span>
-                  <span class="h-full w-full inset-0 absolute mt-0.5 ml-0.5 bg-gradient-to-br filter group-active:opacity-0 rounded opacity-50 from-purple-600 to-blue-500"></span>
-                  <span class="absolute inset-0 w-full h-full transition-all duration-200 ease-out rounded shadow-xl bg-gradient-to-br filter group-active:opacity-0 group-hover:blur-sm from-purple-600 to-blue-500"></span>
-                  <span class="absolute inset-0 w-full h-full transition duration-200 ease-out rounded bg-gradient-to-br to-purple-600 from-blue-500"></span>
-                  <span class="relative">Contact Me!</span>
-                </a>
+                <input type="submit" class="h-11 w-32 bg-gray-600 rounded-md font-semibold text-[whitesmoke] hover:bg-gray-700 cursor-pointer">
             </div>
       </div>
-    </div>
-</section>
+    </form>
+  </section>
 
   <?php include 'footer.php';?>
