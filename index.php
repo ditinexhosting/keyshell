@@ -7,14 +7,14 @@ include 'header.php';
 <section class="hero-section flex flex-col-reverse md:flex-row min-h-[85vh] w-full justify-center items-center">
     <div class="left w-full md:w-1/2 py-3 pb-8 md:pb-0 px-5 sm:px-7 md:px-12">
       <h1 class="text-4xl md:text-5xl font-semibold tracking-wider text-gray-600">DevOps Services and Solutions</h1>
-      <p class="text-[#5A5453] text-base md:text-lg pb-10 pt-10 tracking-wider md:pr-5">Our DevOps team helps organizations optimize and streamline their software development lifecycle. We offer a range of services including integration with cloud, continuous integration and continuous delivery (CI/CD), GitOps, containerization, DevSecOps, AI/ML</p>
+      <p class="text-[#5A5453] text-md sm:text-base md:text-lg py-10 tracking-wider md:pr-5">Our DevOps team helps organizations optimize and streamline their software development lifecycle. We offer a range of services including integration with cloud, continuous integration and continuous delivery (CI/CD), GitOps, containerization, DevSecOps, AI/ML</p>
       <div class="flex h-auto w-full flex justify-center md:justify-start items-center">
-          <button class="bg-gray-600 hover:bg-[#5A5453] text-white rounded-tl-2xl rounded-br-2xl rounded-sm px-10 py-3 font-semibold text-lg tracking-wider">Let's Talk<i class="fa-solid fa-arrow-right pl-[5px] text-lg"></i></button>
+          <a href="#contact" class="bg-gray-600 hover:bg-[#5A5453] text-white rounded-tl-2xl rounded-br-2xl rounded-sm px-10 py-3 font-semibold text-lg tracking-wider">Let's Talk<i class="fa-solid fa-arrow-right pl-[5px] text-lg"></i></a>
       </div>
     </div>
 
     <div class="right w-full md:w-1/2 flex justify-center items-center">
-      <img src="assets\images\heroImage-min.png" alt="DevOps Services and Solutions" class="h-[390px] lg:h-[420px] w-[390px] lg:w-[420px]">
+      <img src="assets/images/heroImage-min.png" alt="DevOps Services and Solutions" class="h-[390px] lg:h-[420px] w-[390px] lg:w-[420px]">
     </div>
   </section>
 
@@ -28,7 +28,7 @@ include 'header.php';
           <div class="relative rounded-sm ">
               <div class="flex justify-start items-center gap-3 py-2 px-4">
                   <div class="flex items-center justify-center w-10 h-10 rounded-full  lg:mb-0">
-                      <img src="assets\images\python-min.png" class="w-10 h-10" alt="python"/>
+                      <img src="assets/images/python-min.png" class="w-10 h-10" alt="python"/>
                   </div>
                   <h3 class="font-semibold leading-5 text-black">Python</h6>
               </div>
@@ -46,7 +46,7 @@ include 'header.php';
           <div class="relative rounded-sm ">
             <div class="flex justify-start items-center gap-3 py-2 px-4">
                 <div class="flex items-center justify-center w-10 h-10 rounded-full  lg:mb-0">
-                    <img src="assets\images\aws-min.png" class="w-10 h-8" alt="aws"/>
+                    <img src="assets/images/aws-min.png" class="w-10 h-8" alt="aws"/>
                 </div>
                 <h3 class="font-semibold leading-5 text-black">AWS</h3>
             </div>
@@ -64,7 +64,7 @@ include 'header.php';
         <div class="relative rounded-sm ">
             <div class="flex justify-start items-center gap-3 py-2 px-4">
                 <div class="flex items-center justify-center w-10 h-10 rounded-full  lg:mb-0">
-                    <img src="assets\images\devops-min.png" class="w-10 h-10" alt="devops"/>
+                    <img src="assets/images/devops-min.png" class="w-10 h-10" alt="devops"/>
                 </div>
                 <h3 class="font-semibold leading-5 text-black">DevOps</h3>
             </div>
@@ -82,7 +82,7 @@ include 'header.php';
         <div class="relative rounded-sm ">
             <div class="flex justify-start items-center gap-3 py-2 px-4">
                 <div class="flex items-center justify-center w-10 h-10 rounded-full  lg:mb-0">
-                    <img src="assets\images\php-min.png" class="w-10 h-8" alt="php"/>
+                    <img src="assets/images/php-min.png" class="w-10 h-8" alt="php"/>
                 </div>
                 <h3 class="font-semibold leading-5 text-black">PHP</h3>
             </div>
@@ -100,7 +100,7 @@ include 'header.php';
         <div class="relative rounded-sm ">
             <div class="flex justify-start items-center gap-3 py-2 px-4">
                 <div class="flex items-center justify-center w-10 h-10 rounded-full  lg:mb-0">
-                    <img src="assets\images\asp-min.png" class="w-10 h-10" alt="asp.net"/>
+                    <img src="assets/images/asp-min.png" class="w-10 h-10" alt="asp.net"/>
                 </div>
                 <h3 class="font-semibold leading-5 text-black">ASP.Net</h3>
             </div>
@@ -118,7 +118,7 @@ include 'header.php';
         <div class="relative rounded-sm ">
             <div class="flex justify-start items-center gap-3 py-2 px-4">
                 <div class="flex items-center justify-center w-10 h-10 rounded-full  lg:mb-0">
-                    <img src="assets\images\linux-min.png" class="w-10 h-10" alt="linux"/>
+                    <img src="assets/images/linux-min.png" class="w-10 h-10" alt="linux"/>
                 </div>
                 <h3 class="font-semibold leading-5 text-black">Redhat</h3>
             </div>
@@ -136,7 +136,7 @@ include 'header.php';
         <div class="relative rounded-sm ">
             <div class="flex justify-start items-center gap-3 py-2 px-4">
                 <div class="flex items-center justify-center w-10 h-10 rounded-full  lg:mb-0">
-                    <img src="assets\images\mean-min.png" class="w-10 h-9" alt="mearn"/>
+                    <img src="assets/images/mean-min.png" class="w-10 h-9" alt="mearn"/>
                 </div>
                 <h3 class="font-semibold leading-5 text-black">MEA(R)N</h3>
             </div>
@@ -155,7 +155,7 @@ include 'header.php';
 
   <section class="min-h-[60vh] w-full px-5 sm:px-10 md:px-0 pr-5 sm:pr-10 md:pr-11 lg:pr-16 py-14 flex flex-col md:flex-row">
     <div class="flex justify-center items-center min-h-[400px] w-full md:w-[45%] lg:w-[35%]">
-        <img src="assets\images\Server-min.gif" alt="" class="h-96 md:h-72 w-96 md:w-72" />
+        <img src="assets/images/Server-min.gif" alt="server" class="h-96 md:h-72 w-96 md:w-72" />
     </div>
     <div class="w-full md:w-[55%] lg:w-[65%]">
         <h2 class="mb-10 text-3xl max-w-lg md:max-w-2xl text-[#333] font-bold leading-snug lg:text-3xl lg:leading-snug">A <span class="text-[#E89B19]">revolutionary</span> way to manage servers.</h2>
@@ -181,7 +181,7 @@ include 'header.php';
     </div>
 </section>
 
-<section class="px-5 md:px-10 lg:px-32 py-10">
+<section class="px-5 md:px-10 lg:px-32 py-10" id="contact">
     <div class="min-h-[61vh] w-full bg-no-repeat bg-cover bg-center shadow-xl bg-[url('assets/images/white-bg.avif')]">
       <div class="top min-h-[15vh] w-full rounded-b-[50px] pb-2 px-5 md:px-2 bg-no-repeat bg-cover bg-center bg-[url('assets/images/blue-image-min.jpg')]">
         <h2 class="text-center font-bold text-2xl text-emerald-300/90 py-4 pb-4 block md:hidden">Get In Touch</h2>
@@ -191,7 +191,7 @@ include 'header.php';
             <i class="fa-sharp fa-solid fa-phone text-lg text-[#E89B19]"></i>
             <h3 class="font-semibold text-md text-[whitesmoke]">+918129571359</h3>
           </div>
-          <div class="two flex gap-4 md:gap-2 justify-center items-start pl-0 md:pl-8">
+          <div class="two flex gap-3.5 md:gap-2 justify-center items-start pl-0 md:pl-8">
             <i class="fa-solid fa-location-dot text-xl text-[#E89B19]"></i>
             <h3 class="font-semibold text-md max-w-md text-[whitesmoke]">First floor Carnival Infopark Phase1 Infopark, Kakkanad, Kochi, Kerala 682042, India</h3>
           </div>
@@ -204,7 +204,7 @@ include 'header.php';
         <h2 class="text-center font-bold text-2xl text-emerald-300/90 py-4 pb-4 hidden md:block">Get In Touch</h2>
       </div>
 
-      <div class="bottom min-h-[50vh] w-full flex flex-col gap-8 flex justify-center items-center py-8">
+      <div class="bottom min-h-[50vh] w-full flex flex-col gap-5 md:gap-8 flex justify-center items-center py-8">
             <div class="flex gap-5 lg:gap-10 flex-col sm:flex-row">
                 <input type="text" required placeholder="Name" class="w-[300px] sm:w-64 md:w-72 lg:w-80 border-0 bg-[#F5F5F5] shadow-md py-2 sm:py-3">
                 <input type="text" required placeholder="Subject" class="w-[300px] sm:w-64 md:w-72 lg:w-80 border-0 bg-[#F5F5F5] shadow-md py-2 sm:py-3">

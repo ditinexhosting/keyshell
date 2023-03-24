@@ -3,7 +3,7 @@
     <div class="container mx-auto py-8 px-4 md:px-10 lg:px-20">
       <div class="flex flex-col md:flex-row justify-between items-center">
         <div class="flex-shrink-0">
-          <img src="assets\images\logo-min.png" alt="logo" class="h-16 w-44 rounded-lg">
+          <img src="assets/images/logo-min.png" alt="logo" class="h-16 w-44 rounded-lg">
         </div>
         <div class="mt-4 md:mt-0 pl-0">
           <menu class="flex flex-row md:space-x-8 space-y-4 md:space-y-0 justify-center items-start gap-8 sm:gap-14 md:gap-8 font-semibold pb-3">

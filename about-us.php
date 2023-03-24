@@ -25,7 +25,7 @@ include 'header.php';
     <section class="pt-5 px-5 sm:px-10 lg:px-20">
         <div class="min-h-[350px] w-full flex flex-col md:flex-row justify-center items-center gap-x-5 lg:gap-x-0">
             <div class="left h-[320px] sm:h-[350px] w-full md:w-2/5 flex justify-center items-center">
-                <img src="assets\images\code-typing-min.gif" alt="variety" class="h-[290px] sm:h-[320px] w-[290px] sm:w-[320px]">
+                <img src="assets/images/code-typing-min.gif" alt="variety" class="h-[290px] sm:h-[320px] w-[290px] sm:w-[320px]">
             </div>
 
             <div class="right min-h-[240px] md:h-[350px] w-full md:w-2/5 flex justify-center items-center">
@@ -41,7 +41,7 @@ include 'header.php';
             </div>
 
             <div class="right h-[350px] w-full md:w-2/5 flex justify-center items-center">
-                <img src="assets\images\quality-min.gif" alt="variety" class="h-[290px] sm:h-[320px] w-[290px] sm:w-[320px]">
+                <img src="assets/images/quality-min.gif" alt="variety" class="h-[290px] sm:h-[320px] w-[290px] sm:w-[320px]">
             </div>
         </div>
     </section>
