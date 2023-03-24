@@ -14,7 +14,7 @@ include 'header.php';
     </div>
 
     <div class="right w-full md:w-1/2 flex justify-center items-center">
-      <img src="assets\images\heroImage.png" alt="DevOps Services and Solutions" class="h-4/5 w-4/5 max-h-[400px] max-w-[400px]">
+      <img src="assets\images\heroImage-min.png" alt="DevOps Services and Solutions" class="h-[390px] lg:h-[420px] w-[390px] lg:w-[420px]">
     </div>
   </section>
 
@@ -28,14 +28,14 @@ include 'header.php';
           <div class="relative rounded-sm ">
               <div class="flex justify-start items-center gap-3 py-2 px-4">
                   <div class="flex items-center justify-center w-10 h-10 rounded-full  lg:mb-0">
-                      <img src="assets\images\python.png" />
+                      <img src="assets\images\python-min.png" class="w-10 h-10" alt="python"/>
                   </div>
-                  <h6 class="font-semibold leading-5 text-black">Python</h6>
+                  <h3 class="font-semibold leading-5 text-black">Python</h6>
               </div>
 
-              <div class="flex justify-center items-start min-h-[208px] w-full" style="background-image: url('https://img.freepik.com/premium-photo/grunge-background_196038-9966.jpg?w=740');">
+              <div class="flex justify-center items-start min-h-[208px] w-full bg-no-repeat bg-cover bg-center relative bg-[url('assets/images/white-blue-image.avif')]">
                 <div class="max-w-2xl text-center px-3">
-                  <h3 class="text-gray-700 text-xl font-bold py-3 pt-7">Core Python & Utility</h3>
+                  <h4 class="text-gray-700 text-xl font-bold py-3 pt-7">Core Python & Utility</h3>
                   <p class="text-md">Python is an interpreted, high-level, general-purpose programming language that emphasizes code readability.</p>
                 </div>
               </div>
@@ -46,14 +46,14 @@ include 'header.php';
           <div class="relative rounded-sm ">
             <div class="flex justify-start items-center gap-3 py-2 px-4">
                 <div class="flex items-center justify-center w-10 h-10 rounded-full  lg:mb-0">
-                    <img src="assets\images\aws.png" />
+                    <img src="assets\images\aws-min.png" class="w-10 h-8" alt="aws"/>
                 </div>
-                <h6 class="font-semibold leading-5 text-black">AWS</h6>
+                <h3 class="font-semibold leading-5 text-black">AWS</h3>
             </div>
 
-            <div class="flex justify-center items-start min-h-[208px] w-full" style="background-image: url('https://img.freepik.com/premium-photo/grunge-background_196038-9966.jpg?w=740');">
+            <div class="flex justify-center items-start min-h-[208px] w-full bg-no-repeat bg-cover bg-center relative bg-[url('assets/images/white-blue-image.avif')]">
               <div class="max-w-2xl text-center px-3">
-                <h3 class="text-gray-700 text-xl font-bold py-3 pt-7">Amazon Web Services</h3>
+                <h4 class="text-gray-700 text-xl font-bold py-3 pt-7">Amazon Web Services</h4>
                 <p class="text-md">AWS is the most popular and most widely used cloud platform in the world. This course will teach you design principles, including strategies for networking.</p>
               </div>
             </div>
@@ -64,14 +64,14 @@ include 'header.php';
         <div class="relative rounded-sm ">
             <div class="flex justify-start items-center gap-3 py-2 px-4">
                 <div class="flex items-center justify-center w-10 h-10 rounded-full  lg:mb-0">
-                    <img src="assets\images\devops.png" />
+                    <img src="assets\images\devops-min.png" class="w-10 h-10" alt="devops"/>
                 </div>
-                <h6 class="font-semibold leading-5 text-black">DevOps</h6>
+                <h3 class="font-semibold leading-5 text-black">DevOps</h3>
             </div>
 
-            <div class="flex justify-center items-center min-h-[208px] w-full" style="background-image: url('https://img.freepik.com/premium-photo/grunge-background_196038-9966.jpg?w=740');">
+            <div class="flex justify-center items-center min-h-[208px] w-full bg-no-repeat bg-cover bg-center relative bg-[url('assets/images/white-blue-image.avif')]">
               <div class="max-w-2xl text-center px-3">
-                <h3 class="text-gray-700 text-xl font-bold py-3 pt-3">Understanding Devops</h3>
+                <h4 class="text-gray-700 text-xl font-bold py-3 pt-3">Understanding Devops</h4>
                 <p class="text-md">DevOps is an IT management where Developers have adopted frameworks such as Agile to enable rapid "sprints" of software development</p>
               </div>
             </div>
@@ -82,14 +82,14 @@ include 'header.php';
         <div class="relative rounded-sm ">
             <div class="flex justify-start items-center gap-3 py-2 px-4">
                 <div class="flex items-center justify-center w-10 h-10 rounded-full  lg:mb-0">
-                    <img src="assets\images\php.png" />
+                    <img src="assets\images\php-min.png" class="w-10 h-8" alt="php"/>
                 </div>
-                <h6 class="font-semibold leading-5 text-black">PHP</h6>
+                <h3 class="font-semibold leading-5 text-black">PHP</h3>
             </div>
 
-            <div class="flex justify-center items-start min-h-[208px] w-full" style="background-image: url('https://img.freepik.com/premium-photo/grunge-background_196038-9966.jpg?w=740');">
+            <div class="flex justify-center items-start min-h-[208px] w-full bg-no-repeat bg-cover bg-center relative bg-[url('assets/images/white-blue-image.avif')]">
               <div class="max-w-2xl text-center px-3">
-                <h3 class="text-gray-700 text-xl font-bold py-3 pt-7">PHP and its framework</h3>
+                <h4 class="text-gray-700 text-xl font-bold py-3 pt-7">PHP and its framework</h4>
                 <p class="text-md">Get started with the world's most used server technology. This course will get you started in no time, covering installation, forms management etc.</p>
               </div>
             </div>
@@ -100,14 +100,14 @@ include 'header.php';
         <div class="relative rounded-sm ">
             <div class="flex justify-start items-center gap-3 py-2 px-4">
                 <div class="flex items-center justify-center w-10 h-10 rounded-full  lg:mb-0">
-                    <img src="assets\images\asp.png" />
+                    <img src="assets\images\asp-min.png" class="w-10 h-10" alt="asp.net"/>
                 </div>
-                <h6 class="font-semibold leading-5 text-black">ASP.Net</h6>
+                <h3 class="font-semibold leading-5 text-black">ASP.Net</h3>
             </div>
 
-            <div class="flex justify-center items-start min-h-[208px] w-full" style="background-image: url('https://img.freepik.com/premium-photo/grunge-background_196038-9966.jpg?w=740');">
+            <div class="flex justify-center items-start min-h-[208px] w-full bg-no-repeat bg-cover bg-center relative bg-[url('assets/images/white-blue-image.avif')]">
               <div class="max-w-2xl text-center px-3">
-                <h3 class="text-gray-700 text-xl font-bold py-3 pt-7">ASP.Net Core</h3>
+                <h4 class="text-gray-700 text-xl font-bold py-3 pt-7">ASP.Net Core</h4>
                 <p class="text-md">ASP.NET Core is cross-platform framework for building web applications and web APIs. You will learn everything about building ASP.NET Core applications.</p>
               </div>
             </div>
@@ -118,14 +118,14 @@ include 'header.php';
         <div class="relative rounded-sm ">
             <div class="flex justify-start items-center gap-3 py-2 px-4">
                 <div class="flex items-center justify-center w-10 h-10 rounded-full  lg:mb-0">
-                    <img src="assets\images\linux.png" />
+                    <img src="assets\images\linux-min.png" class="w-10 h-10" alt="linux"/>
                 </div>
-                <h6 class="font-semibold leading-5 text-black">Redhat</h6>
+                <h3 class="font-semibold leading-5 text-black">Redhat</h3>
             </div>
 
-            <div class="flex justify-center items-start min-h-[208px] w-full" style="background-image: url('https://img.freepik.com/premium-photo/grunge-background_196038-9966.jpg?w=740');">
+            <div class="flex justify-center items-start min-h-[208px] w-full bg-no-repeat bg-cover bg-center relative bg-[url('assets/images/white-blue-image.avif')]">
               <div class="max-w-2xl text-center px-3">
-                <h3 class="text-gray-700 text-xl font-bold py-3 pt-7">Linux Redhat</h3>
+                <h4 class="text-gray-700 text-xl font-bold py-3 pt-7">Linux Redhat</h4>
                 <p class="text-md">Get and keep your skills up to speed on Linux server solutions. You’ll find easy to follow videos whether you’re looking to learn the fundamentals of Linux.</p>
               </div>
             </div>
@@ -136,14 +136,14 @@ include 'header.php';
         <div class="relative rounded-sm ">
             <div class="flex justify-start items-center gap-3 py-2 px-4">
                 <div class="flex items-center justify-center w-10 h-10 rounded-full  lg:mb-0">
-                    <img src="assets\images\mean.png" />
+                    <img src="assets\images\mean-min.png" class="w-10 h-9" alt="mearn"/>
                 </div>
-                <h6 class="font-semibold leading-5 text-black">MEA(R)N</h6>
+                <h3 class="font-semibold leading-5 text-black">MEA(R)N</h3>
             </div>
 
-            <div class="flex justify-center items-start min-h-[208px] w-full" style="background-image: url('https://img.freepik.com/premium-photo/grunge-background_196038-9966.jpg?w=740');">
+            <div class="flex justify-center items-start min-h-[208px] w-full bg-no-repeat bg-cover bg-center relative bg-[url('assets/images/white-blue-image.avif')]">
               <div class="max-w-2xl text-center px-3">
-                <h3 class="text-gray-700 text-xl font-bold py-3 pt-7">MEA(R)N Stack</h3>
+                <h4 class="text-gray-700 text-xl font-bold py-3 pt-7">MEA(R)N Stack</h4>
                 <p class="text-md">Do you want to build advanced applications that render quickly and that are easy to maintain? This course will teach you how to build a full stack application from scratch.</p>
               </div>
             </div>
@@ -155,26 +155,26 @@ include 'header.php';
 
   <section class="min-h-[60vh] w-full px-5 sm:px-10 md:px-0 pr-5 sm:pr-10 md:pr-11 lg:pr-16 py-14 flex flex-col md:flex-row">
     <div class="flex justify-center items-center min-h-[400px] w-full md:w-[45%] lg:w-[35%]">
-        <img src="assets\images\Server.gif" alt="" class="h-96 md:h-72 w-96 md:w-72" />
+        <img src="assets\images\Server-min.gif" alt="" class="h-96 md:h-72 w-96 md:w-72" />
     </div>
     <div class="w-full md:w-[55%] lg:w-[65%]">
         <h2 class="mb-10 text-3xl max-w-lg md:max-w-2xl text-[#333] font-bold leading-snug lg:text-3xl lg:leading-snug">A <span class="text-[#E89B19]">revolutionary</span> way to manage servers.</h2>
         <div class="grid gap-y-12 gap-x-8 lg:grid-cols-2 grid-rows-2">
             <div>
-                <p class="mb-6 border-l-4 border-[#E89B19] pl-3 lg:pl-4 text-2xl leading-10">Faster Deployment
-                </p>
+                <h2 class="mb-6 border-l-4 border-[#E89B19] pl-3 lg:pl-4 text-2xl leading-10">Faster Deployment
+                </h2>
                 <p class=" text-gray-800 pr-2">DevOps aims at reducing the software development life cycle, which in turn, enables businesses to deploy their products quickly.</p>
             </div>
             <div>
-                <p class="mb-6 border-l-4 border-[#E89B19] pl-3 lg:pl-4 text-2xl leading-10">Improved Collaboration</p>
+                <h2 class="mb-6 border-l-4 border-[#E89B19] pl-3 lg:pl-4 text-2xl leading-10">Improved Collaboration</h2>
                 <p class=" text-gray-800 pr-2">DevOps provides the much-needed atmosphere to development and operational teams for mutual communication and collaboration.</p>
             </div>
             <div>
-                <p class="mb-6 border-l-4 border-[#E89B19] pl-3 lg:pl-4 text-2xl leading-10">Promotes Agility </p>
+                <h2 class="mb-6 border-l-4 border-[#E89B19] pl-3 lg:pl-4 text-2xl leading-10">Promotes Agility </h2>
                 <p class="text-gray-800 pr-2">With DevOps, it is feasible to acquire the scalability needed to gain a competitive advantage in the market.</p>
             </div>
             <div>
-                <p class="mb-6 border-l-4 border-[#E89B19] pl-3 lg:pl-4 text-2xl leading-10">Early Defect Detection</p>
+                <h2 class="mb-6 border-l-4 border-[#E89B19] pl-3 lg:pl-4 text-2xl leading-10">Early Defect Detection</h2>
                 <p class=" text-gray-800 pr-2">The continuous monitoring and testing environment of DevOps helps in detecting the flaws in the early stages.</p>
             </div>
         </div>
@@ -183,7 +183,7 @@ include 'header.php';
 
 <section class="px-5 md:px-10 lg:px-32 py-10">
     <div class="min-h-[61vh] w-full bg-no-repeat bg-cover bg-center shadow-xl bg-[url('assets/images/white-bg.avif')]">
-      <div class="top min-h-[15vh] w-full rounded-b-[50px] pb-2 px-5 md:px-2 bg-no-repeat bg-cover bg-center bg-[url('assets/images/blue-image.jpg')]">
+      <div class="top min-h-[15vh] w-full rounded-b-[50px] pb-2 px-5 md:px-2 bg-no-repeat bg-cover bg-center bg-[url('assets/images/blue-image-min.jpg')]">
         <h2 class="text-center font-bold text-2xl text-emerald-300/90 py-4 pb-4 block md:hidden">Get In Touch</h2>
 
         <div class="flex flex-col md:flex-row px-5 gap-y-3 gap-x-6 justify-start md:justify-evenly items-start py-3 md:py-3 pb-5 md:pb-1">

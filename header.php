@@ -28,18 +28,18 @@
 
     <div>
       <ul class="flex gap-2 md:gap-4">
-        <li><a href="https://twitter.com" class="bg-white shadow-md rounded-full p-[4px] sm:p-[4px] px-[5px] sm:px-[6px] text-blue-400 hover:text-blue-600"><i class="fab fa-twitter fa-md sm:fa-lg"></i></a></li>
-        <li><a href="https://instagram.com" class="bg-white shadow-md rounded-full p-[4px] sm:p-[4px] px-[5px] sm:px-[6px] text-pink-500 hover:text-pink-700"><i class="fab fa-instagram fa-md sm:fa-lg"></i></a></li>
-        <li><a href="https://facebook.com" class="bg-white shadow-md rounded-full p-[4px] sm:p-[4px] px-[5px] sm:px-[6px] text-blue-600 hover:text-blue-800"><i class="fab fa-facebook fa-md sm:fa-lg"></i></a></li>
-        <li><a href="https://youtube.com" class="bg-white shadow-md rounded-full p-[4px] sm:p-[4px] px-[5px] sm:px-[6px] text-red-600 hover:text-red-800"><i class="fab fa-youtube fa-md sm:fa-lg"></i></a></li>
-        <li><a href="https://pinterest.com" class="bg-white shadow-md rounded-full p-[4px] sm:p-[4px] px-[5px] sm:px-[6px] text-red-400 hover:text-red-600"><i class="fab fa-pinterest fa-md sm:fa-lg"></i></a></li>
+        <li><a href="https://twitter.com" aria-label="Twitter" class="bg-white shadow-md rounded-full p-[4px] sm:p-[4px] px-[5px] sm:px-[6px] text-blue-400 hover:text-blue-600"><i class="fab fa-twitter fa-md sm:fa-lg"></i></a></li>
+        <li><a href="https://instagram.com" aria-label="instagram" class="bg-white shadow-md rounded-full p-[4px] sm:p-[4px] px-[5px] sm:px-[6px] text-pink-500 hover:text-pink-700"><i class="fab fa-instagram fa-md sm:fa-lg"></i></a></li>
+        <li><a href="https://facebook.com" aria-label="facebook" class="bg-white shadow-md rounded-full p-[4px] sm:p-[4px] px-[5px] sm:px-[6px] text-blue-600 hover:text-blue-800"><i class="fab fa-facebook fa-md sm:fa-lg"></i></a></li>
+        <li><a href="https://youtube.com" aria-label="youtube" class="bg-white shadow-md rounded-full p-[4px] sm:p-[4px] px-[5px] sm:px-[6px] text-red-600 hover:text-red-800"><i class="fab fa-youtube fa-md sm:fa-lg"></i></a></li>
+        <li><a href="https://pinterest.com" aria-label="pinterest" class="bg-white shadow-md rounded-full p-[4px] sm:p-[4px] px-[5px] sm:px-[6px] text-red-400 hover:text-red-600"><i class="fab fa-pinterest fa-md sm:fa-lg"></i></a></li>
       </ul>
     </div>
   </div>
 
   <header class="bg-white shadow-md px-5 md:px-10">
     <nav class="flex items-center justify-between max-w-6xl py-3">
-      <img src="assets\images\logo.png" alt="logo" class="h-14 w-44 rounded-lg">
+      <img src="assets\images\logo-min.png" alt="logo" class="h-14 w-44 rounded-lg">
       <div class="flex md:hidden">
         <i class="fa-solid fa-bars text-xl text-indigo-500" id="navbar-toggle"></i>
       </div>
@@ -63,7 +63,7 @@
 
   <div id="navbar-drawer" class="hidden md:hidden fixed top-0 left-0 w-full h-full bg-[#333] z-50 transition duration-300 ease-in hover:ease-in">
     <div class="flex justify-between items-center p-3 md:p-3 px-5 md:px-0 bg-white">
-      <img src="assets\images\logo.png" alt="logo" class="h-14 w-44 rounded-lg">
+      <img src="assets\images\logo-min.png" alt="logo" class="h-14 w-44 rounded-lg">
       <i class="fa-solid fa-xmark text-xl text-indigo-500" id="navbar-close"></i>
     </div>
 
