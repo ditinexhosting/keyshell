@@ -1,3 +1,5 @@
+AOS.init();
+
 const navbarMenu = document.getElementById("navbar-menu");
 const navbarToggle = document.getElementById("navbar-toggle");
 const navbarDrawer = document.getElementById("navbar-drawer");
@@ -15,8 +17,8 @@ navbarClose.addEventListener("click", () => {
 
 let mybutton = document.getElementById("ScrollToTop");
 
-document.body.scrollTop = 0;
-document.documentElement.scrollTop = 0;
+// document.body.scrollTop = 0;
+// document.documentElement.scrollTop = 0;
 
 window.onscroll = function () {
   scrollFunction();
