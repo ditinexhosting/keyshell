@@ -3,7 +3,7 @@
     <div class="container mx-auto py-8 px-4 md:px-10 lg:px-20">
       <div class="flex flex-col md:flex-row justify-between items-center">
         <div class="flex-shrink-0">
-          <img src="http://127.0.0.1:5500/contents/themes/keyshell/theme-vars/theme-style/img/logo_retina.png" alt="logo" class="h-16 w-44 rounded-lg">
+          <img src="assets\images\logo.png" alt="logo" class="h-16 w-44 rounded-lg">
         </div>
         <div class="mt-4 md:mt-0 pl-0">
           <ul class="flex flex-row md:space-x-8 space-y-4 md:space-y-0 justify-center items-start gap-8 sm:gap-14 md:gap-8 font-semibold pb-3">
@@ -42,24 +42,11 @@
       </div>
     </div>
   </footer>
+
+  <button class="h-9 w-9 rounded-md bg-gray-600 text-white font-bold text-2xl text-center hover:bg-indigo-500 fixed bottom-5 right-5 block" id="ScrollToTop" onclick="topFunction()"><i class="fa-solid fa-angle-up"></i></button>
   
 </body>
-<script>
-  const navbarMenu = document.getElementById('navbar-menu');
-const navbarToggle = document.getElementById('navbar-toggle');
-const navbarDrawer = document.getElementById('navbar-drawer');
-const navbarClose = document.getElementById('navbar-close');
 
-navbarToggle.addEventListener('click', () => {
-  navbarMenu.classList.toggle('hidden');
-  navbarDrawer.classList.toggle('hidden');
-});
-
-navbarClose.addEventListener('click', () => {
-  navbarMenu.classList.add('hidden');
-  navbarDrawer.classList.add('hidden');
-});
-
-</script>
+<script src="assets\js\index.js"></script>
 
 </html>
