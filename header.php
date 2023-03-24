@@ -39,7 +39,7 @@
 
   <header class="bg-white shadow-md px-5 md:px-10">
     <nav class="flex items-center justify-between max-w-6xl py-3">
-      <img src="assets\images\logo-min.png" alt="logo" class="h-14 w-44 rounded-lg">
+      <img src="assets/images/logo-min.png" alt="logo" class="h-14 w-44 rounded-lg">
       <div class="flex md:hidden">
         <i class="fa-solid fa-bars text-xl text-indigo-500" id="navbar-toggle"></i>
       </div>
@@ -63,7 +63,7 @@
 
   <div id="navbar-drawer" class="hidden md:hidden fixed top-0 left-0 w-full h-full bg-[#333] z-50 transition duration-300 ease-in hover:ease-in">
     <div class="flex justify-between items-center p-3 md:p-3 px-5 md:px-0 bg-white">
-      <img src="assets\images\logo-min.png" alt="logo" class="h-14 w-44 rounded-lg">
+      <img src="assets/images/logo-min.png" alt="logo" class="h-14 w-44 rounded-lg">
       <i class="fa-solid fa-xmark text-xl text-indigo-500" id="navbar-close"></i>
     </div>
 
