@@ -155,7 +155,7 @@ include 'header.php';
 
   <section class="min-h-[60vh] w-full px-5 sm:px-10 md:px-0 pr-5 sm:pr-10 md:pr-11 lg:pr-16 py-14 flex flex-col md:flex-row">
     <div class="flex justify-center items-center min-h-[400px] w-full md:w-[45%] lg:w-[35%]">
-        <img src="assets/images/Server-min.gif" alt="server" class="h-96 md:h-72 w-96 md:w-72" />
+        <img src="assets/images/Server-amico.webp" alt="server" class="h-96 md:h-72 w-96 md:w-72" />
     </div>
     <div class="w-full md:w-[55%] lg:w-[65%]">
         <h2 class="mb-10 text-3xl max-w-lg md:max-w-2xl text-[#333] font-bold leading-snug lg:text-3xl lg:leading-snug">A <span class="text-[#E89B19]">revolutionary</span> way to manage servers.</h2>
@@ -249,39 +249,39 @@ include 'header.php';
 <section class="px-5 sm:px-10 lg:px-20 py-14">
   <div class="main min-h-[60vh] flex flex-wrap justify-center items-center gap-10">
     <div class="card flex flex-col gap-6 justify-start items-center h-96 w-72 shadow-lg hover:shadow-xl px-5 pt-5" data-aos="flip-left" data-aos="fade-up" data-aos-anchor-placement="top-center">
-      <img src="assets/images/supply-chain.webp" alt="supply chain" class="h-16 w-16">
+      <img src="assets/images/supply-chain.webp" alt="supply chain" class="h-16 w-16 p-1 rounded-full">
       <h1 class="font-semibold text-2xl">Supply Chain</h1>
       <p class="text-center">Partnered with a San Diego based banking and finance institution to make a smooth transition to agile Cloud infrastructure. This, in turn, improved the scalability and automated infrastructure provisioning.</p>
     </div>
     <div class="card flex flex-col gap-6 justify-start items-center h-96 w-72 shadow-lg hover:shadow-xl px-5 pt-5" data-aos="flip-left" data-aos="fade-up" data-aos-anchor-placement="top-center">
-      <img src="assets/images/healthcare.webp" alt="healthcare" class="h-16 w-16">
+      <img src="assets/images/healthcare.webp" alt="healthcare" class="h-16 w-16 p-1 rounded-full">
       <h1 class="font-semibold text-2xl">Healthcare</h1>
       <p class="text-center">Worked with a leading healthcare institution to help them manage their operations with our expert DevOps monitoring and support to identify and fix issues and bugs across the range of their internal.</p>
     </div>
     <div class="card flex flex-col gap-6 justify-start items-center h-96 w-72 shadow-lg hover:shadow-xl px-5 pt-5" data-aos="flip-left" data-aos="fade-up" data-aos-anchor-placement="top-center">
-      <img src="assets/images/manufacturing.webp" alt="manufacturing" class="h-16 w-16">
+      <img src="assets/images/manufacturing.webp" alt="manufacturing" class="h-16 w-16 p-1 rounded-full">
       <h1 class="font-semibold text-2xl">Manufacturing</h1>
       <p class="text-center">Provided Devops consulting to a leading manufacturing giant to help them evolve their business using cloud. We reachitected their portfolio using our proven RAPADIT framework.</p>
     </div>
     <div class="card flex flex-col gap-6 justify-start items-center h-96 w-72 shadow-lg hover:shadow-xl px-5 pt-5" data-aos="flip-left" data-aos="fade-up" data-aos-anchor-placement="top-center">
-      <img src="assets/images/travel.webp" alt="travel" class="h-16 w-16">
+      <img src="assets/images/travel.webp" alt="travel" class="h-16 w-16 p-1 rounded-full">
       <h1 class="font-semibold text-2xl">Travel</h1>
       <p class="text-center">Provided Devops consulting to a leading manufacturing giant to help them evolve their business using cloud. We reachitected their portfolio using our proven RAPADIT framework.</p>
     </div>
     <div class="card flex flex-col gap-6 justify-start items-center h-96 w-72 shadow-lg hover:shadow-xl px-5 pt-5" data-aos="flip-left" data-aos="fade-up" data-aos-anchor-placement="top-center">
-      <img src="assets/images/hospitality.webp" alt="hospitality" class="h-16 w-16">
+      <img src="assets/images/hospitality.webp" alt="hospitality" class="h-16 w-16 p-1 rounded-full">
       <h1 class="font-semibold text-2xl">Hospitality</h1>
       <p class="text-center">Provided Devops consulting to a leading manufacturing giant to help them evolve their business using cloud. We reachitected their portfolio using our proven RAPADIT framework.</p>
     </div>
     <div class="card flex flex-col gap-6 justify-start items-center h-96 w-72 shadow-lg hover:shadow-xl px-5 pt-5" data-aos="flip-left" data-aos="fade-up" data-aos-anchor-placement="top-center">
-      <img src="assets/images/finance.webp" alt="finance" class="h-16 w-16">
+      <img src="assets/images/finance.webp" alt="finance" class="h-16 w-16 p-1 rounded-full">
       <h1 class="font-semibold text-2xl">Finance</h1>
       <p class="text-center">Provided Devops consulting to a leading manufacturing giant to help them evolve their business using cloud. We reachitected their portfolio using our proven RAPADIT framework.</p>
     </div>
   </div>
 </section>
 
-<section class="flex justify-center items-center flex-col gap-7 py-9 md:py-12 pb-8 md:pb-16">
+<section class="flex justify-center items-center flex-col gap-12 py-9 md:py-14 pb-8 md:pb-16">
   <h1 class="font-semibold text-2xl text px-4 border-b-2 border-[#E89B19] pb-2 text-center">DevOps Tools and Platforms</h1>
   <img src="assets/images/devops-tools-and-automation.webp" alt="solutions" class="h-[300px] sm:h-[400px] lg:h-[450px] w-[355px] sm:w-[630px] md:w-[720px] lg:w-[850px]">
 </section>
