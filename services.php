@@ -7,7 +7,7 @@ include 'header.php';
 <section class="px-5 sm:px-10 lg:px-20 py-14">
     <div class="container min-h-[60vh] flex flex-col md:flex-row justify-center items-center gap-x-10 gap-y-8 sm:gap-y-0">
         <div class="left min-h-96 md:min-h-[60vh] w-full md:w-2/5 flex justify-center items-center">
-            <img src="assets\images\Service 24_7.gif" alt="24/7" class="h-80 w-80">
+            <img src="assets/images/Service 24_7-min.gif" alt="24/7" class="h-80 w-80">
         </div>
 
         <div class="right flex justify-center items-center min-h-[250px] md:min-h-[60vh] w-full md:w-2/5">
