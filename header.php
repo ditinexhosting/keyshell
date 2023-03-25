@@ -7,11 +7,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <?php echo $metatags; ?>
     <title><?php echo $title; ?></title>
-    <link rel="stylesheet" href="assets\css\global.css">
     <script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 </head>
 <body class="bg-[whitesmoke]">
 
@@ -39,9 +36,9 @@
     </div>
   </div>
 
-  <header class="bg-white shadow-md px-5 md:px-10">
+  <header class="sticky top-0 z-20 bg-white shadow-md px-5 md:px-10">
     <nav class="flex items-center justify-between max-w-6xl py-3">
-      <img src="assets/images/logo-min.png" alt="logo" class="h-14 w-44 rounded-lg">
+      <img src="assets/images/logo-min.png" alt="logo" class="h-[55px] w-[180.95px] rounded-lg">
       <div class="flex md:hidden">
         <i class="fa-solid fa-bars text-xl text-indigo-500" id="navbar-toggle"></i>
       </div>
@@ -65,7 +62,7 @@
 
   <div id="navbar-drawer" class="hidden md:hidden fixed top-0 left-0 w-full h-full bg-[#333] z-50 transition duration-300 ease-in hover:ease-in">
     <div class="flex justify-between items-center p-3 md:p-3 px-5 md:px-0 bg-white">
-      <img src="assets/images/logo-min.png" alt="logo" class="h-14 w-44 rounded-lg">
+      <img src="assets/images/logo-min.png" alt="logo" class="h-[55px] w-[180.95px] rounded-lg">
       <i class="fa-solid fa-xmark text-xl text-indigo-500" id="navbar-close"></i>
     </div>
 
