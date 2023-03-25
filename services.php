@@ -16,6 +16,10 @@ include 'header.php';
     </div>
 </section>
 
+<section class="flex justify-center items-center py-5">
+  <h1 class="font-semibold text-2xl text px-4 border-b-2 border-[#E89B19] pb-2">Services That We Provide</h1>
+</section>
+
 <section class="services px-5 sm:px-10 lg:px-20">
     <div class="main flex min-h-[60vh] flex-wrap justify-center items-center gap-x-3.5 md:gap-x-6 lg:gap-x-10 py-14">
         <div class="card flex flex-col gap-6 h-52 w-72 px-5" data-aos="fade-right">
@@ -29,12 +33,12 @@ include 'header.php';
         </div>
 
         <div class="card flex flex-col gap-6 h-52 w-72 px-5" data-aos="fade-right">
-            <img src="assets/icons/icons8-load-balancer-100.png" alt="" class="h-24 w-24">
+            <img src="assets/images/optimization.png" alt="" class="h-24 w-24">
             <h1 class="font-semibold text-lg">Server Optimization</h1>
         </div>
 
         <div class="card flex flex-col gap-6 h-52 w-72 px-5" data-aos="fade-right">
-            <img src="assets/icons/icons8-cpanel-32.png" alt="" class="h-24 w-24">
+            <img src="assets/images/cpanel.svg" alt="" class="h-24 w-24">
             <h1 class="font-semibold text-lg">Migration Assistance</h1>
         </div>
 
