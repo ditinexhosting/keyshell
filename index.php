@@ -21,129 +21,76 @@ include 'header.php';
     <p class="font-semibold text-2xl text-[#333] border-b-2 border-[#E89B19] px-4 pb-2">What We Offers <strong class="text-blue-600 pl-1">?</strong></p>
   </div>
 
-  <section class="services py-6 pb-8 px-5 md:px-10">
-    <div class="flex justify-center items-center flex-wrap gap-x-10 gap-y-10">
-      <div class="w-72 bg-white shadow-md">
-          <div class="rounded-sm ">
-              <div class="flex justify-start items-center gap-3 py-2 px-4">
-                  <div class="flex items-center justify-center w-10 h-10 rounded-full  lg:mb-0">
-                      <img src="assets/images/python.webp" class="w-10 h-10" alt="python" loading="lazy"/>
-                  </div>
-                  <h3 class="font-semibold leading-5 text-black">Python</h6>
-              </div>
-              <div class="flex justify-center items-start min-h-[208px] w-full bg-no-repeat bg-cover bg-center bg-[url('assets/images/white-blue-image.avif')]">
-                <div class="max-w-2xl text-center px-3">
-                  <h4 class="text-gray-700 text-xl font-bold py-3 pt-7">Core Python & Utility</h3>
-                  <p class="text-md">Python is an interpreted, high-level, general-purpose programming language that emphasizes code readability.</p>
-                </div>
-              </div>
-          </div>
-      </div>
+<?php
+$divs = array(
+  array(
+    'img' => 'assets/images/python.webp',
+    'title' => 'Python',
+    'subtitle' => 'Core Python & Utility',
+    'description' => 'Python is an interpreted, high-level, general-purpose programming language that emphasizes code readability.',
+  ),
+  array(
+    'img' => 'assets/images/aws.webp',
+    'title' => 'AWS',
+    'subtitle' => 'Amazon Web Services',
+    'description' => 'AWS is the most popular and most widely used cloud platform in the world. This course will teach you design principles, including strategies for networking.',
+  ),
+  array(
+    'img' => 'assets/images/devops.webp',
+    'title' => 'DevOps',
+    'subtitle' => 'Understanding Devops',
+    'description' => 'DevOps is an IT management where Developers have adopted frameworks such as Agile to enable rapid "sprints" of software development',
+  ),
+  array(
+    'img' => 'assets/images/php.webp',
+    'title' => 'PHP',
+    'subtitle' => 'PHP and its framework',
+    'description' => 'Get started with the world\'s most used server technology. This course will get you started in no time, covering installation, forms management etc.',
+  ),
+  array(
+    'img' => 'assets/images/asp.webp',
+    'title' => 'ASP.Net',
+    'subtitle' => 'ASP.NET for Beginners',
+    'description' => 'Learn ASP.NET, one of the most popular web frameworks for building dynamic websites and web applications.',
+  ),
+  array(
+    'img' => 'assets/images/linux.webp',
+    'title' => 'Redhat',
+    'subtitle' => 'Linux Redhat',
+    'description' => 'Get and keep your skills up to speed on Linux server solutions. You’ll find easy to follow videos whether you’re looking to learn the fundamentals of Linux.',
+  ),
+  array(
+    'img' => 'assets/images/mean.webp',
+    'title' => 'MEA(R)N',
+    'subtitle' => 'MEA(R)N Stack',
+    'description' => 'Do you want to build advanced applications that render quickly and that are easy to maintain? This course will teach you how to build a full stack application from scratch.',
+  )
+);
 
-      <div class="w-72 bg-white shadow-md">
-          <div class="rounded-sm ">
-            <div class="flex justify-start items-center gap-3 py-2 px-4">
-                <div class="flex items-center justify-center w-10 h-10 rounded-full  lg:mb-0">
-                    <img src="assets/images/aws.webp" class="w-8 h-8" alt="aws" loading="lazy"/>
-                </div>
-                <h3 class="font-semibold leading-5 text-black">AWS</h3>
-            </div>
-            <div class="flex justify-center items-start min-h-[208px] w-full bg-no-repeat bg-cover bg-center bg-[url('assets/images/white-blue-image.avif')]">
-              <div class="max-w-2xl text-center px-3">
-                <h4 class="text-gray-700 text-xl font-bold py-3 pt-7">Amazon Web Services</h4>
-                <p class="text-md">AWS is the most popular and most widely used cloud platform in the world. This course will teach you design principles, including strategies for networking.</p>
-              </div>
-            </div>
-        </div>
-      </div>
+echo '<section class="services py-6 pb-8 px-5 md:px-10">';
+echo '<div class="flex justify-center items-center flex-wrap gap-x-10 gap-y-10">';
+foreach ($divs as $div) {
+  echo '<div class="w-72 bg-white shadow-md">';
+  echo '<div class="rounded-sm">';
+  echo '<div class="flex justify-start items-center gap-3 py-2 px-4">';
+  echo '<div class="flex items-center justify-center w-10 h-10 rounded-full  lg:mb-0">';
+  echo '<img src="' . $div['img'] . '" class="w-10 h-9" alt="' . $div['title'] . '" loading="lazy"/>';
+  echo '</div>';
+  echo '<h3 class="font-semibold leading-5 text-black">' . $div['title'] . '</h6>';
+  echo '</div>';
+  echo '<div class="flex justify-center items-start min-h-[208px] w-full bg-no-repeat bg-cover bg-center bg-[url(\'assets/images/white-blue-image.avif\')]">';
+  echo '<div class="max-w-2xl text-center px-3">';
+  echo '<h4 class="text-gray-700 text-xl font-bold py-3 pt-7">' . $div['subtitle'] . '</h3>';
+  echo '<p class="text-md">' . $div['description'] . '</p>';
+  echo '</div>';
+  echo '</div>';
+  echo '</div>';
+  echo '</div>';
+}
+echo '</div>';
+echo '</section>';
+?>
 
-      <div class="w-72 bg-white shadow-md">
-        <div class="rounded-sm ">
-            <div class="flex justify-start items-center gap-3 py-2 px-4">
-                <div class="flex items-center justify-center w-10 h-10 rounded-full  lg:mb-0">
-                    <img src="assets/images/devops.webp" class="w-10 h-10" alt="devops" loading="lazy"/>
-                </div>
-                <h3 class="font-semibold leading-5 text-black">DevOps</h3>
-            </div>
-            <div class="flex justify-center items-center min-h-[208px] w-full bg-no-repeat bg-cover bg-center bg-[url('assets/images/white-blue-image.avif')]">
-              <div class="max-w-2xl text-center px-3">
-                <h4 class="text-gray-700 text-xl font-bold py-3 pt-3">Understanding Devops</h4>
-                <p class="text-md">DevOps is an IT management where Developers have adopted frameworks such as Agile to enable rapid "sprints" of software development</p>
-              </div>
-            </div>
-        </div>
-      </div>
-
-      <div class="w-72 bg-white shadow-md">
-        <div class="rounded-sm ">
-            <div class="flex justify-start items-center gap-3 py-2 px-4">
-                <div class="flex items-center justify-center w-10 h-10 rounded-full  lg:mb-0">
-                    <img src="assets/images/php.webp" class="w-[46.72px] h-8" alt="php" loading="lazy"/>
-                </div>
-                <h3 class="font-semibold leading-5 text-black">PHP</h3>
-            </div>
-            <div class="flex justify-center items-start min-h-[208px] w-full bg-no-repeat bg-cover bg-center bg-[url('assets/images/white-blue-image.avif')]">
-              <div class="max-w-2xl text-center px-3">
-                <h4 class="text-gray-700 text-xl font-bold py-3 pt-7">PHP and its framework</h4>
-                <p class="text-md">Get started with the world's most used server technology. This course will get you started in no time, covering installation, forms management etc.</p>
-              </div>
-            </div>
-        </div>
-      </div>
-
-      <div class="w-72 bg-white shadow-md">
-        <div class="rounded-sm ">
-            <div class="flex justify-start items-center gap-3 py-2 px-4">
-                <div class="flex items-center justify-center w-10 h-10 rounded-full  lg:mb-0">
-                    <img src="assets/images/asp.webp" class="w-10 h-10" alt="asp.net" loading="lazy"/>
-                </div>
-                <h3 class="font-semibold leading-5 text-black">ASP.Net</h3>
-            </div>
-            <div class="flex justify-center items-start min-h-[208px] w-full bg-no-repeat bg-cover bg-center bg-[url('assets/images/white-blue-image.avif')]">
-              <div class="max-w-2xl text-center px-3">
-                <h4 class="text-gray-700 text-xl font-bold py-3 pt-7">ASP.Net Core</h4>
-                <p class="text-md">ASP.NET Core is cross-platform framework for building web applications and web APIs. You will learn everything about building ASP.NET Core applications.</p>
-              </div>
-            </div>
-        </div>
-      </div>
-
-      <div class="w-72 bg-white shadow-md">
-        <div class="rounded-sm ">
-            <div class="flex justify-start items-center gap-3 py-2 px-4">
-                <div class="flex items-center justify-center w-10 h-10 rounded-full  lg:mb-0">
-                    <img src="assets/images/linux.webp" class="w-10 h-10" alt="linux" loading="lazy"/>
-                </div>
-                <h3 class="font-semibold leading-5 text-black">Redhat</h3>
-            </div>
-            <div class="flex justify-center items-start min-h-[208px] w-full bg-no-repeat bg-cover bg-center bg-[url('assets/images/white-blue-image.avif')]">
-              <div class="max-w-2xl text-center px-3">
-                <h4 class="text-gray-700 text-xl font-bold py-3 pt-7">Linux Redhat</h4>
-                <p class="text-md">Get and keep your skills up to speed on Linux server solutions. You’ll find easy to follow videos whether you’re looking to learn the fundamentals of Linux.</p>
-              </div>
-            </div>
-        </div>
-      </div>
-
-      <div class="w-72 bg-white shadow-md">
-        <div class="rounded-sm ">
-            <div class="flex justify-start items-center gap-3 py-2 px-4">
-                <div class="flex items-center justify-center w-10 h-10 rounded-full  lg:mb-0">
-                    <img src="assets/images/mean.webp" class="w-10 h-8" alt="mearn" loading="lazy"/>
-                </div>
-                <h3 class="font-semibold leading-5 text-black">MEA(R)N</h3>
-            </div>
-            <div class="flex justify-center items-start min-h-[208px] w-full bg-no-repeat bg-cover bg-center bg-[url('assets/images/white-blue-image.avif')]">
-              <div class="max-w-2xl text-center px-3">
-                <h4 class="text-gray-700 text-xl font-bold py-3 pt-7">MEA(R)N Stack</h4>
-                <p class="text-md">Do you want to build advanced applications that render quickly and that are easy to maintain? This course will teach you how to build a full stack application from scratch.</p>
-              </div>
-            </div>
-        </div>
-      </div>
-  </div>
-</div>
-  </section>
 
   <section class="min-h-[60vh] w-full px-5 sm:px-10 md:px-0 pr-5 sm:pr-10 md:pr-11 lg:pr-16 py-14 flex flex-col md:flex-row">
     <div class="flex justify-center items-center min-h-[400px] w-full md:w-[45%] lg:w-[35%]">
@@ -232,32 +179,32 @@ include 'header.php';
 
 <section class="px-5 sm:px-10 lg:px-20 py-14">
   <div class="main min-h-[60vh] flex flex-wrap justify-center items-center gap-10">
-    <div class="card flex flex-col gap-6 justify-start items-center h-96 w-72 shadow-lg hover:shadow-xl px-5 pt-5" data-aos="flip-left" data-aos="fade-up" data-aos-anchor-placement="top-center">
+    <div class="card flex flex-col gap-6 justify-start items-center h-96 w-72 shadow-lg hover:shadow-xl px-5 pt-5">
       <img src="assets/images/supply-chain.webp" alt="supply chain" class="h-16 w-16 p-1 rounded-full" loading="lazy">
       <h1 class="font-semibold text-2xl">Supply Chain</h1>
       <p class="text-center">Partnered with a San Diego based banking and finance institution to make a smooth transition to agile Cloud infrastructure. This, in turn, improved the scalability and automated infrastructure provisioning.</p>
     </div>
-    <div class="card flex flex-col gap-6 justify-start items-center h-96 w-72 shadow-lg hover:shadow-xl px-5 pt-5" data-aos="flip-left" data-aos="fade-up" data-aos-anchor-placement="top-center">
+    <div class="card flex flex-col gap-6 justify-start items-center h-96 w-72 shadow-lg hover:shadow-xl px-5 pt-5">
       <img src="assets/images/healthcare.webp" alt="healthcare" class="h-16 w-16 p-1 rounded-full" loading="lazy">
       <h1 class="font-semibold text-2xl">Healthcare</h1>
       <p class="text-center">Worked with a leading healthcare institution to help them manage their operations with our expert DevOps monitoring and support to identify and fix issues and bugs across the range of their internal.</p>
     </div>
-    <div class="card flex flex-col gap-6 justify-start items-center h-96 w-72 shadow-lg hover:shadow-xl px-5 pt-5" data-aos="flip-left" data-aos="fade-up" data-aos-anchor-placement="top-center">
+    <div class="card flex flex-col gap-6 justify-start items-center h-96 w-72 shadow-lg hover:shadow-xl px-5 pt-5">
       <img src="assets/images/manufacturing.webp" alt="manufacturing" class="h-16 w-16 p-1 rounded-full" loading="lazy">
       <h1 class="font-semibold text-2xl">Manufacturing</h1>
       <p class="text-center">Provided Devops consulting to a leading manufacturing giant to help them evolve their business using cloud. We reachitected their portfolio using our proven RAPADIT framework.</p>
     </div>
-    <div class="card flex flex-col gap-6 justify-start items-center h-96 w-72 shadow-lg hover:shadow-xl px-5 pt-5" data-aos="flip-left" data-aos="fade-up" data-aos-anchor-placement="top-center">
+    <div class="card flex flex-col gap-6 justify-start items-center h-96 w-72 shadow-lg hover:shadow-xl px-5 pt-5">
       <img src="assets/images/travel.webp" alt="travel" class="h-16 w-16 p-1 rounded-full" loading="lazy">
       <h1 class="font-semibold text-2xl">Travel</h1>
       <p class="text-center">Provided Devops consulting to a leading manufacturing giant to help them evolve their business using cloud. We reachitected their portfolio using our proven RAPADIT framework.</p>
     </div>
-    <div class="card flex flex-col gap-6 justify-start items-center h-96 w-72 shadow-lg hover:shadow-xl px-5 pt-5" data-aos="flip-left" data-aos="fade-up" data-aos-anchor-placement="top-center">
+    <div class="card flex flex-col gap-6 justify-start items-center h-96 w-72 shadow-lg hover:shadow-xl px-5 pt-5">
       <img src="assets/images/hospitality.webp" alt="hospitality" class="h-16 w-16 p-1 rounded-full" loading="lazy">
       <h1 class="font-semibold text-2xl">Hospitality</h1>
       <p class="text-center">Provided Devops consulting to a leading manufacturing giant to help them evolve their business using cloud. We reachitected their portfolio using our proven RAPADIT framework.</p>
     </div>
-    <div class="card flex flex-col gap-6 justify-start items-center h-96 w-72 shadow-lg hover:shadow-xl px-5 pt-5" data-aos="flip-left" data-aos="fade-up" data-aos-anchor-placement="top-center">
+    <div class="card flex flex-col gap-6 justify-start items-center h-96 w-72 shadow-lg hover:shadow-xl px-5 pt-5">
       <img src="assets/images/finance.webp" alt="finance" class="h-16 w-16 p-1 rounded-full" loading="lazy">
       <h1 class="font-semibold text-2xl">Finance</h1>
       <p class="text-center">Provided Devops consulting to a leading manufacturing giant to help them evolve their business using cloud. We reachitected their portfolio using our proven RAPADIT framework.</p>
