@@ -15,9 +15,6 @@ navbarClose.addEventListener("click", () => {
 
 let mybutton = document.getElementById("ScrollToTop");
 
-document.body.scrollTop = 0;
-document.documentElement.scrollTop = 0;
-
 window.onscroll = function () {
   scrollFunction();
 };

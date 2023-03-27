@@ -7,8 +7,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <?php echo $metatags; ?>
     <title><?php echo $title; ?></title>
+    <script type="text/javascript"> (function() { var css = document.createElement('link'); css.href = 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css'; css.rel = 'stylesheet'; css.type = 'text/css'; document.getElementsByTagName('head')[0].appendChild(css); })(); </script>
     <script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body class="bg-[whitesmoke]">
 
@@ -27,7 +27,7 @@
 
     <div>
       <ul class="flex gap-2 md:gap-4">
-        <li><a href="https://twitter.com" aria-label="Twitter" class="bg-white shadow-md rounded-full p-[4px] sm:p-[4px] px-[5px] sm:px-[6px] text-blue-400 hover:text-blue-600"><i class="fab fa-twitter fa-md sm:fa-lg"></i></a></li>
+        <li><a href="https://twitter.com" aria-label="Twitter" class="bg-white shadow-md rounded-full p-[4px] sm:p-[4px] px-[5px] sm:px-[6px] py-[3px] text-blue-400 hover:text-blue-600"><i class="fab fa-twitter fa-md sm:fa-lg"></i></a></li>
         <li><a href="https://instagram.com" aria-label="instagram" class="bg-white shadow-md rounded-full p-[4px] sm:p-[4px] px-[5px] sm:px-[6px] text-pink-500 hover:text-pink-700"><i class="fab fa-instagram fa-md sm:fa-lg"></i></a></li>
         <li><a href="https://facebook.com" aria-label="facebook" class="bg-white shadow-md rounded-full p-[4px] sm:p-[4px] px-[5px] sm:px-[6px] text-blue-600 hover:text-blue-800"><i class="fab fa-facebook fa-md sm:fa-lg"></i></a></li>
         <li><a href="https://youtube.com" aria-label="youtube" class="bg-white shadow-md rounded-full p-[4px] sm:p-[4px] px-[5px] sm:px-[6px] text-red-600 hover:text-red-800"><i class="fab fa-youtube fa-md sm:fa-lg"></i></a></li>
