@@ -74,7 +74,7 @@ foreach ($divs as $div) {
   echo '<div class="rounded-sm">';
   echo '<div class="flex justify-start items-center gap-3 py-2 px-4">';
   echo '<div class="flex items-center justify-center w-10 h-10 rounded-full  lg:mb-0">';
-  echo '<img src="' . $div['img'] . '" class="w-10 h-9" alt="' . $div['title'] . '" loading="lazy"/>';
+  echo '<img src="' . $div['img'] . '" class="w-10 h-10" alt="' . $div['title'] . '" loading="lazy"/>';
   echo '</div>';
   echo '<h3 class="font-semibold leading-5 text-black">' . $div['title'] . '</h6>';
   echo '</div>';
@@ -94,7 +94,7 @@ echo '</section>';
 
   <section class="min-h-[60vh] w-full px-5 sm:px-10 md:px-0 pr-5 sm:pr-10 md:pr-11 lg:pr-16 py-14 flex flex-col md:flex-row">
     <div class="flex justify-center items-center min-h-[400px] w-full md:w-[45%] lg:w-[35%]">
-        <img src="assets/images/Server-amico.webp" alt="server" class="h-96 md:h-72 w-96 md:w-72" loading="lazy"/>
+        <img src="assets/images/Server-amico.webp" alt="server" class="h-96 md:h-72 w-[372px] md:w-72" loading="lazy"/>
     </div>
     <div class="w-full md:w-[55%] lg:w-[65%]">
         <h2 class="mb-10 text-3xl max-w-lg md:max-w-2xl text-[#333] font-bold leading-snug lg:text-3xl lg:leading-snug">A <span class="text-[#E89B19]">revolutionary</span> way to manage servers.</h2>
@@ -240,14 +240,14 @@ echo '</section>';
 
       <div class="bottom min-h-[50vh] w-full flex flex-col gap-5 md:gap-8 flex justify-center items-center py-8">
             <div class="flex gap-5 lg:gap-10 flex-col sm:flex-row">
-                <input type="text" required placeholder="Name" class="w-[300px] sm:w-64 md:w-72 lg:w-80 border-0 bg-[#F5F5F5] shadow-md py-2 sm:py-3">
-                <input type="text" required placeholder="Subject" class="w-[300px] sm:w-64 md:w-72 lg:w-80 border-0 bg-[#F5F5F5] shadow-md py-2 sm:py-3">
+                <input type="text" required placeholder="Name" class="pl-3 w-[300px] sm:w-64 md:w-72 lg:w-80 border-0 bg-[#F5F5F5] shadow-md py-2 sm:py-3">
+                <input type="text" required placeholder="Subject" class="pl-3 w-[300px] sm:w-64 md:w-72 lg:w-80 border-0 bg-[#F5F5F5] shadow-md py-2 sm:py-3">
             </div>
             <div class="flex gap-5 lg:gap-10 flex-col sm:flex-row">
-                <input type="email" required placeholder="Email" class="w-[300px] sm:w-64 md:w-72 lg:w-80 border-0 bg-[#F5F5F5] shadow-md py-2 sm:py-3">
+                <input type="email" required placeholder="Email" class="pl-3 w-[300px] sm:w-64 md:w-72 lg:w-80 border-0 bg-[#F5F5F5] shadow-md py-2 sm:py-3">
                 <input type="text" required placeholder="Phone" class="w-[300px] sm:w-64 md:w-72 lg:w-80 border-0 bg-[#F5F5F5] shadow-md py-2 sm:py-3">
             </div>
-            <textarea placeholder="Your Message" class="w-[300px] sm:w-[535px] md:w-[595px] lg:w-[680px] border-0 bg-[#F5F5F5] shadow-md py-2 sm:py-3"></textarea>
+            <textarea placeholder="Your Message" class="pl-3 w-[300px] sm:w-[535px] md:w-[595px] lg:w-[680px] border-0 bg-[#F5F5F5] shadow-md py-2 sm:py-3"></textarea>
             <div class="w-full flex justify-center items-center">
                 <input type="submit" class="h-11 w-32 bg-gray-600 rounded-md font-semibold text-[whitesmoke] hover:bg-gray-700 cursor-pointer">
             </div>

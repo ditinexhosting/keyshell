@@ -51,7 +51,7 @@
 
   <span class="h-9 w-9 rounded-md bg-[#E89B19] text-white font-bold text-2xl text-center cursor-pointer hover:opacity-80 fixed bottom-5 right-5 block" id="ScrollToTop" onclick="topFunction()"><i class="fa-solid fa-angle-up"></i></span>
   
-  <script src="assets\js\index.js"></script>
+  <script src="assets\js\index.js" async></script>
 </body>
 
 </html>

@@ -3,7 +3,6 @@ $title = 'Home';
 $metatags = '';
 include 'header.php';
 ?>
-
     <section class="min-h-[60vh] md:min-h-[82vh] bg-no-repeat bg-cover bg-center bg-[url('assets/images/aboutUs-bgImage-min.webp')]">
         <div class="min-h-[65vh] md:min-h-[82vh] w-full flex flex-col justify-center items-center gap-8 sm:gap-12 px-4 md:px-16 lg:px-32">
           <h2 class="text-center font-bold text-3xl sm:text-4xl text-[#D8D8D8] tracking-wider">Welcome to Keyshell</h2>
