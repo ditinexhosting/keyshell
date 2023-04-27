@@ -28,13 +28,13 @@ const index = () => {
             <div className="border-2 border-gray-400 rounded-xl p-8 my-10 m-5">
                 <div className="flex gap-10">
                     <div>
-                        <Image src='/images/Project-1.png' width={450} height={450} alt="Map" />
+                        <Image src='/images/Project-1.png' width={450} height={450} alt="Project" />
                     </div>
                     <div>
-                        <Image src='/images/Project-2.png' width={450} height={450} alt="Map" />
+                        <Image src='/images/Project-2.png' width={450} height={450} alt="Project" />
                     </div>
                     <div className="relative">
-                        <Image src='/images/Project-3.png' width={450} height={450} alt="Map" />
+                        <Image src='/images/Project-3.png' width={450} height={450} alt="Project" />
                         <div className="absolute bottom-4 left-4 text-white text-lg p-5">
                             <span className="block text-sm text-[#F61E1E]">Technology</span>
                             <p className="underline">5 Exciting Tech Trends to Watch Out for in 2023</p>
