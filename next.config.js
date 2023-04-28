@@ -2,7 +2,9 @@
 const path = require("path");
 const nextConfig = {
   output: "export",
-  distDir: "dist",
+  images: {
+    unoptimized: true,
+  },
   reactStrictMode: true,
   webpack: (config) => {
     config.resolve.alias["@/react-icons"] = path.join(
