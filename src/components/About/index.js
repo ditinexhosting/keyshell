@@ -3,7 +3,7 @@ const index = () => {
         <div className="flex justify-between flex-col md:flex-row">
             <div className="flex-1 p-5">
                 <div className="flex justify-between items-center">
-                    <h3 className="text-4xl text-[#F61E1E] font-bold">About team <br /> Keyshell</h3>
+                   <a href="#"> <h3 className="text-4xl text-[#F61E1E] font-bold">About team <br /> Keyshell</h3></a>
                     <div className="border-2 rounded-full p-2 border-black">
                         <svg width="61" height="61" viewBox="0 0 61 61" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <rect x="12.728" y="15.2928" width="4" height="43" transform="rotate(-45 12.728 15.2928)" fill="#1C1C1C" />
