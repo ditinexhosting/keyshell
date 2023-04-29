@@ -32,7 +32,7 @@ const index = () => {
               We've got you covered!
             </p>
             <div className="">
-              <button className="rounded-lg bg-primary p-3 px-5 font-bold text-lg text-white flex justify-center items-center gap-4  shadow-md hover:shadow-2xl transition-all">
+              <a href='#contact' className="rounded-lg bg-primary p-3 px-5 font-bold text-lg text-white flex justify-center items-center gap-4  shadow-md hover:shadow-2xl transition-all">
                 Get a <br />
                 Quote
                 <svg
@@ -48,7 +48,7 @@ const index = () => {
                     fill="white"
                   />
                 </svg>
-              </button>
+              </a>
             </div>
           </div>
           <div className="flex items-center gap-2 justify-center md:justify-start">
@@ -196,89 +196,81 @@ const index = () => {
             <Accordion
               sections={[
                 {
-                  title: (
-                    <>
-                      <h2 className="text-3xl md:text-5xl  font-bold uppercase flex gap-5 items-center">
-                        UI/UX Design
-                        <svg
-                          width="15"
-                          height="16"
-                          viewBox="0 0 15 16"
-                          fill="none"
-                          xmlns="http://www.w3.org/2000/svg"
-                        >
-                          <circle
-                            cx="7.5"
-                            cy="8.02039"
-                            r="7.5"
-                            fill="#F61E1E"
-                          />
-                        </svg>
-                      </h2>
-                    </>
-                  ),
+                  title: 'Web Development',
                   content: (
                     <div className="flex justify-around items-center flex-col md:flex-row gap-5 ">
                       <div className="flex flex-col gap-3">
                         <div className="flex gap-3">
                           <button className="border-2 border-[#C4C4C4] rounded-full px-4 py-1 text-[#C4C4C4] shrink-0">
-                            Design
+                            Reactjs
                           </button>
                           <button className="border-2 border-[#5F5F5F] rounded-full px-4 py-1 text-[#5F5F5F] shrink-0">
-                            Development
+                            Nodejs
                           </button>
                         </div>
                         <div className="flex gap-3">
                           <button className="border-2 border-[#5F5F5F] rounded-full px-4 py-1 text-[#5F5F5F] shrink-0">
-                            Digital Marketing
+                            Nextjs
                           </button>
                           <button className="border-2 border-[#5F5F5F] rounded-full px-4 py-1 text-[#5F5F5F] shrink-0">
-                            SEO
+                            Laravel
                           </button>
                         </div>
                       </div>
-                      <p className="text-white max-w-xl">
-                        As a design development agency for both web and mobile
-                        applications, our specialists have analytical skills to
-                        organize complex user flows for easy use of the final
-                        product. We create innovative and functional UX/UI
-                        design solutions for web and mobile applications of any
-                        complexity.
+                      <p className="text-white max-w-xl">KeyShell is a company that specializes in innovative IT solutions, including web development, to help businesses thrive in the digital world. Their team of experts provides tailor-made solutions to clients to meet their unique needs, delivering results that help businesses grow and succeed.
                       </p>
                     </div>
                   ),
                 },
                 {
-                  title: (
-                    <>
-                      <h2 className="text-3xl md:text-5xl  text-[#5F5F5F] uppercase flex gap-5 items-center">
-                        Brand Design
-                      </h2>
-                    </>
+                  title: 'Mobile App Development',
+                  content: (
+                    <div className="flex justify-around items-center flex-col md:flex-row gap-5 ">
+                      <div className="flex flex-col gap-3">
+                        <div className="flex gap-3">
+                          <button className="border-2 border-[#C4C4C4] rounded-full px-4 py-1 text-[#C4C4C4] shrink-0">
+                            React Native
+                          </button>
+                          <button className="border-2 border-[#5F5F5F] rounded-full px-4 py-1 text-[#5F5F5F] shrink-0">
+                            Flutter
+                          </button>
+                        </div>
+                      </div>
+                      <p className="text-white max-w-xl">
+                        KeyShell provides innovative mobile app development solutions for businesses looking to expand their reach in the digital world. Our team of expert developers delivers custom-made applications that are user-friendly and responsive, helping you connect with your customers on any device. From strategy and design to deployment and maintenance, we offer end-to-end mobile app development services tailored to your unique business needs.
+                      </p>
+                    </div>
                   ),
+                },
+                {
+                  title: 'DevOps Services',
                   content: (
                     <p>
-                      Nullam ultricies mauris mauris, sit amet vestibulum ipsum
-                      malesuada vel. Duis id risus in libero tempus hendrerit
-                      vel vel arcu. In pharetra massa vel nunc rhoncus, at
-                      eleifend eros lacinia.
+                      DevOps is a software development methodology that combines the best practices of development and operations teams to improve collaboration, communication, and productivity. It emphasizes automation, continuous integration, and continuous delivery to enable faster and more frequent releases of high-quality software. With DevOps, organizations can achieve faster time-to-market, reduced development costs, and increased customer satisfaction. DevOps also helps to create a culture of collaboration and innovation, where developers and operations teams work together to deliver better software and services.
                     </p>
                   ),
                 },
                 {
-                  title: (
-                    <>
-                      <h2 className="text-3xl md:text-5xl  text-[#5F5F5F] uppercase flex gap-5 items-center">
-                        Graphic Design
-                      </h2>
-                    </>
-                  ),
+                  title: 'Blockchain Technology',
                   content: (
                     <p>
-                      Suspendisse potenti. Sed bibendum, justo vitae euismod
-                      dignissim, elit sem dignissim enim, at sodales velit ex in
-                      purus. Vestibulum sollicitudin nibh id tellus laoreet, vel
-                      eleifend mi bibendum.
+                      Blockchain technology is a decentralized, secure, and transparent way of storing and exchanging data. It's a distributed ledger that records transactions across a network of computers, making it virtually impossible to tamper with or hack. Blockchain has become increasingly popular due to its use in cryptocurrency transactions, but its potential applications are much broader. It can be used in supply chain management, healthcare, identity verification, and voting systems, to name a few. Blockchain technology has the potential to revolutionize many industries by providing a secure and efficient way to exchange information and value.
+                    </p>
+                  ),
+                },
+                {
+                  title: 'Artificial Intelligence',
+                  content: (
+                    <p>
+                      AI or Artificial Intelligence is the simulation of human intelligence in machines that are programmed to learn, reason, and self-correct. AI is used to create intelligent machines that can perform tasks without human intervention. It includes machine learning, natural language processing, robotics, and expert systems. AI technology is widely used in various fields such as healthcare, finance, education, and manufacturing. It has the potential to transform the way we live and work, by enabling us to make better decisions, improve efficiency, and create new opportunities.
+                    </p>
+                  ),
+                },
+                {
+                  title: 'Machine Learning',
+                  content: (
+                    <p>
+                      Machine learning (ML) is a type of artificial intelligence (AI) that allows computers to learn and improve from experience without being explicitly programmed. ML algorithms analyze data, recognize patterns, and make predictions or decisions based on that data. This technology has many practical applications, such as image and speech recognition, natural language processing, predictive analytics, and more. ML is becoming increasingly important in many industries, including finance, healthcare, and e-commerce. With its ability to automate decision-making processes and identify hidden patterns, ML has the potential to revolutionize the way businesses operate.
                     </p>
                   ),
                 },
@@ -511,7 +503,7 @@ const index = () => {
             </div>
           </div>
         </section>
-        <section className="mb-32 text-black my-10">
+        <section className="mb-32 text-black my-10" id='contact'>
           <div className="mb-9 md:mb-20 flex p-5">
             <h1 className="text-4xl md:text-6xl lg:text-9xl font-bold">
               Let’s start something new together

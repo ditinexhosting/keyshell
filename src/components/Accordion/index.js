@@ -17,7 +17,21 @@ function Accordion({ sections }) {
             aria-expanded={activeIndex === index}
             aria-controls={`panel-${index}`}
           >
-            {section.title}
+            {activeIndex === index ? (<h2 className='text-3xl md:text-5xl uppercase flex gap-5 items-center text-white font-bold'>{section.title}   <svg
+              width="15"
+              height="16"
+              viewBox="0 0 15 16"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <circle
+                cx="7.5"
+                cy="8.02039"
+                r="7.5"
+                fill="#F61E1E"
+              />
+            </svg></h2>) : (<h2 className='text-3xl md:text-5xl uppercase flex gap-5 items-center text-[#5F5F5F]'>{section.title}</h2>)}
+
             <span className="ml-auto ">
               {activeIndex === index ? (
                 <svg
@@ -116,9 +130,8 @@ function Accordion({ sections }) {
           </button>
           <div
             id={`panel-${index}`}
-            className={`panel overflow-hidden transition-max-height duration-200 ease-in-out ${
-              activeIndex === index ? 'max-h-screen' : 'max-h-0'
-            }`}
+            className={`panel overflow-hidden transition-max-height duration-200 ease-in-out ${activeIndex === index ? 'max-h-screen' : 'max-h-0'
+              }`}
           >
             <div className="px-4 py-2 mb-5">{section.content}</div>
           </div>
