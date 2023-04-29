@@ -32,7 +32,7 @@ const index = () => {
               We've got you covered!
             </p>
             <div className="">
-              <a href='#contact' className="rounded-lg bg-primary p-3 px-5 font-bold text-lg text-white flex justify-center items-center gap-4  shadow-md hover:shadow-2xl transition-all">
+              <a href='#contact' className="rounded-lg bg-primary p-3 px-5 font-bold text-lg text-white flex justify-center items-center gap-4  shadow-md hover:shadow-2xl transition-all w-fit">
                 Get a <br />
                 Quote
                 <svg
@@ -133,13 +133,9 @@ const index = () => {
                 What makes us special
               </h3>
               <p className="text-gray-700 mt-5 py-5">
-                Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-                accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
-                quae ab illo inventore veritatis et quasi architecto beatae
-                vitae dicta sunt explicabo.
-                <br /> <br />
-                Totam rem aperiam, eaque ipsa quae ab illo inventore veritatis
-                et quasi architecto beatae vitae dicta sunt explicabo.
+                KeyShell is a technology-driven company that offers a wide range of services, including software development, mobile app development, devops, blockchain, AI, and ML. What sets KeyShell apart from other companies is its commitment to delivering innovative and cost-effective solutions to its clients.
+                <br />
+                The team of experts at KeyShell work closely with clients to understand their unique needs and develop customized solutions that can help them achieve their business goals. With a focus on quality and timely delivery, KeyShell has established itself as a trusted partner for businesses looking to leverage technology for growth and success.
               </p>
             </div>
             <div className="text-black flex flex-col gap-10">
@@ -176,18 +172,18 @@ const index = () => {
             <div className="flex flex-col gap-3">
               <div className="flex gap-3">
                 <button className="border-2 border-primary rounded-full px-4 py-1 text-primary">
-                  Design
+                  Web Development
                 </button>
                 <button className="border-2 border-light-border rounded-full px-4 py-1 text-light-border">
-                  Development
+                  AI
                 </button>
               </div>
               <div className="flex gap-3">
                 <button className="border-2 border-light-border rounded-full px-4 py-1 text-light-border">
-                  Digital Marketing
+                  ML
                 </button>
                 <button className="border-2 border-light-border rounded-full px-4 py-1 text-light-border">
-                  SEO
+                  DevOps Services
                 </button>
               </div>
             </div>
@@ -650,14 +646,15 @@ const index = () => {
                     className="text-primary font-bold text-2xl cursor-pointer"
                     onMouseEnter={handelHover}
                   >
-                    (808) 555-0111
+                    +91 8867676785
                   </a>
                   <a
                     id="mail"
                     className="text-primary font-bold text-2xl cursor-pointer"
                     onMouseEnter={handelHover}
                   >
-                    mail@example.com
+                    keyshell3455@gmail.com
+
                   </a>
                 </div>
                 <div>
