@@ -32,7 +32,7 @@ const index = () => {
               We've got you covered!
             </p>
             <div className="">
-              <a href='#contact' className="rounded-lg bg-primary p-3 px-5 font-bold text-lg text-white flex justify-center items-center gap-4  shadow-md hover:shadow-2xl transition-all">
+              <a href='#contact' className="rounded-lg bg-primary p-3 px-5 font-bold text-lg text-white flex justify-center items-center gap-4  shadow-md hover:shadow-2xl transition-all w-fit">
                 Get a <br />
                 Quote
                 <svg
