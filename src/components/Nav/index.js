@@ -58,7 +58,7 @@ const index = () => {
                         <a
                           key={item.name}
                           href={item.href}
-                          className="bg-white border-white hover:border-primary border-b-4 text-black m-3 px-1 py-1 text-sm font-medium text-black ease-in-out duration-300"
+                          className="bg-white border-white hover:border-primary border-b-4 m-3 px-1 py-1 text-sm font-medium text-black ease-in-out duration-300"
                         >
                           {item.name}
                         </a>
@@ -76,7 +76,7 @@ const index = () => {
                     key={item.name}
                     as="a"
                     href={item.href}
-                    className="bg-white text-black text-gray-700 hover:bg-primary hover:text-white block rounded-md px-3 py-2 text-base font-medium"
+                    className="bg-white text-gray-700 hover:bg-primary hover:text-white block rounded-md px-3 py-2 text-base font-medium"
                   >
                     {item.name}
                   </Disclosure.Button>
