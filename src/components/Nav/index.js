@@ -22,7 +22,7 @@ const index = () => {
               <div className="relative flex h-16 items-center justify-between">
                 <div className="absolute inset-y-0 right-0 flex items-center sm:hidden">
                   {/* Mobile menu button*/}
-                  <Disclosure.Button className="inline-flex items-center justify-center rounded-md p-2 bg-[#F61E1E] focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white">
+                  <Disclosure.Button className="inline-flex items-center justify-center rounded-md p-2 bg-primary focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white">
                     <span className="sr-only">Open main menu</span>
                     {open ? (
                       <Image
@@ -58,7 +58,7 @@ const index = () => {
                         <a
                           key={item.name}
                           href={item.href}
-                          className="bg-white border-white hover:border-[#F61E1E] border-b-4 text-black m-3 px-1 py-1 text-sm font-medium text-black ease-in-out duration-300"
+                          className="bg-white border-white hover:border-primary border-b-4 text-black m-3 px-1 py-1 text-sm font-medium text-black ease-in-out duration-300"
                         >
                           {item.name}
                         </a>
@@ -76,7 +76,7 @@ const index = () => {
                     key={item.name}
                     as="a"
                     href={item.href}
-                    className="bg-white text-black text-gray-700 hover:bg-[#F61E1E] hover:text-white block rounded-md px-3 py-2 text-base font-medium"
+                    className="bg-white text-black text-gray-700 hover:bg-primary hover:text-white block rounded-md px-3 py-2 text-base font-medium"
                   >
                     {item.name}
                   </Disclosure.Button>

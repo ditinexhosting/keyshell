@@ -30,7 +30,7 @@ function Accordion({ sections }) {
                 r="7.5"
                 fill="#F61E1E"
               />
-            </svg></h2>) : (<h2 className='text-3xl md:text-5xl uppercase flex gap-5 items-center text-[#5F5F5F]'>{section.title}</h2>)}
+            </svg></h2>) : (<h2 className='text-3xl md:text-5xl uppercase flex gap-5 items-center text-light-white'>{section.title}</h2>)}
 
             <span className="ml-auto ">
               {activeIndex === index ? (
