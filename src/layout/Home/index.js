@@ -164,10 +164,10 @@ const index = () => {
         <section className="bg-secondary px-5 mx-2 rounded-xl py-10">
           <div className="flex justify-between flex-col md:flex-row gap-5 mb-5">
             <div className="flex flex-col">
-              <h2 className="text-3xl md:text-5xl font-bold uppercase text-[#C4C4C4]">
+              <h2 className="text-3xl md:text-5xl font-bold uppercase text-white-border">
                 Our Services <span className="text-primary">.</span>
               </h2>
-              <p className="text-[#5F5F5F] max-w-lg">
+              <p className="text-light-white max-w-lg">
                 Every one of us loves something different. So, explore the world
                 through the lens of our visual capabilitie, and find what you
                 love
@@ -178,15 +178,15 @@ const index = () => {
                 <button className="border-2 border-primary rounded-full px-4 py-1 text-primary">
                   Design
                 </button>
-                <button className="border-2 border-[#C4C4C4] rounded-full px-4 py-1 text-[#C4C4C4]">
+                <button className="border-2 border-white-border rounded-full px-4 py-1 text-white-border">
                   Development
                 </button>
               </div>
               <div className="flex gap-3">
-                <button className="border-2 border-[#C4C4C4] rounded-full px-4 py-1 text-[#C4C4C4]">
+                <button className="border-2 border-white-border rounded-full px-4 py-1 text-white-border">
                   Digital Marketing
                 </button>
-                <button className="border-2 border-[#C4C4C4] rounded-full px-4 py-1 text-[#C4C4C4]">
+                <button className="border-2 border-white-border rounded-full px-4 py-1 text-white-border">
                   SEO
                 </button>
               </div>
@@ -201,18 +201,18 @@ const index = () => {
                     <div className="flex justify-around items-center flex-col md:flex-row gap-5 ">
                       <div className="flex flex-col gap-3">
                         <div className="flex gap-3">
-                          <button className="border-2 border-[#C4C4C4] rounded-full px-4 py-1 text-[#C4C4C4] shrink-0">
+                          <button className="border-2 border-white-border rounded-full px-4 py-1 text-white-border shrink-0">
                             Reactjs
                           </button>
-                          <button className="border-2 border-[#5F5F5F] rounded-full px-4 py-1 text-[#5F5F5F] shrink-0">
+                          <button className="border-2 border-light-white rounded-full px-4 py-1 text-light-white shrink-0">
                             Nodejs
                           </button>
                         </div>
                         <div className="flex gap-3">
-                          <button className="border-2 border-[#5F5F5F] rounded-full px-4 py-1 text-[#5F5F5F] shrink-0">
+                          <button className="border-2 border-light-white rounded-full px-4 py-1 text-light-white shrink-0">
                             Nextjs
                           </button>
-                          <button className="border-2 border-[#5F5F5F] rounded-full px-4 py-1 text-[#5F5F5F] shrink-0">
+                          <button className="border-2 border-light-white rounded-full px-4 py-1 text-light-white shrink-0">
                             Laravel
                           </button>
                         </div>
@@ -228,10 +228,10 @@ const index = () => {
                     <div className="flex justify-around items-center flex-col md:flex-row gap-5 ">
                       <div className="flex flex-col gap-3">
                         <div className="flex gap-3">
-                          <button className="border-2 border-[#C4C4C4] rounded-full px-4 py-1 text-[#C4C4C4] shrink-0">
+                          <button className="border-2 border-white-border rounded-full px-4 py-1 text-white-border shrink-0">
                             React Native
                           </button>
-                          <button className="border-2 border-[#5F5F5F] rounded-full px-4 py-1 text-[#5F5F5F] shrink-0">
+                          <button className="border-2 border-light-white rounded-full px-4 py-1 text-light-white shrink-0">
                             Flutter
                           </button>
                         </div>
@@ -280,26 +280,26 @@ const index = () => {
 
           <section>
             <div className="flex justify-between items-baseline">
-              <h2 className="text-5xl font-bold uppercase text-[#C4C4C4]">
+              <h2 className="text-5xl font-bold uppercase text-white-border">
                 Project
               </h2>
               <a className="text-primary text-xs">See All Services</a>
             </div>
             <div>
               <div className="flex items-center gap-2 justify-center md:justify-start py-8 flex-wrap md:flex-nowrap">
-                <button className="border-2 border-[#C4C4C4] rounded-full px-4 py-1 text-[#C4C4C4] md:shrink-0">
+                <button className="border-2 border-white-border rounded-full px-4 py-1 text-white-border md:shrink-0">
                   Design
                 </button>
-                <button className="border-2 border-[#5F5F5F] rounded-full px-4 py-1 text-[#5F5F5F] md:shrink-0">
+                <button className="border-2 border-light-white rounded-full px-4 py-1 text-light-white md:shrink-0">
                   Development
                 </button>
-                <button className="border-2 border-[#5F5F5F] rounded-full px-4 py-1 text-[#5F5F5F] md:shrink-0">
+                <button className="border-2 border-light-white rounded-full px-4 py-1 text-light-white md:shrink-0">
                   Digital Marketing
                 </button>
-                <button className="border-2 border-[#5F5F5F] rounded-full px-4 py-1 text-[#5F5F5F] md:shrink-0">
+                <button className="border-2 border-light-white rounded-full px-4 py-1 text-light-white md:shrink-0">
                   SEO
                 </button>
-                <div className="w-full h-[2px] bg-[#5F5F5F] hidden md:block mx-2"></div>
+                <div className="w-full h-[2px] bg-light-white hidden md:block mx-2"></div>
               </div>
             </div>
 
