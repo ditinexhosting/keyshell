@@ -2,11 +2,10 @@ import { Disclosure } from '@headlessui/react';
 import Image from 'next/image';
 
 const navigation = [
-  { name: 'Home', href: '#', current: true },
-  { name: 'Services', href: '#', current: false },
-  { name: 'Portfolio', href: '#', current: false },
-  { name: 'Blog', href: '#', current: false },
-  { name: 'Contact ', href: '#', current: false },
+  { name: 'Home', href: '/', current: true },
+  { name: 'About', href: '/aboutUs', current: false },
+  { name: 'Services', href: '/services', current: false },
+  { name: 'Contact ', href: '/contact', current: false },
 ];
 
 function classNames(...classes) {

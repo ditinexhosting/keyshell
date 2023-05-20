@@ -1,6 +1,6 @@
-const index = () => {
+const index = (props) => {
   return (
-    <footer className="container mx-auto bg-white">
+    <footer className={`container mx-auto bg-white`}>
       <div className="w-full h-[2px] bg-gray-400 my-10"></div>
       <div className="flex justify-between flex-col md:flex-row gap-10 items-center">
         <ul className="text-black flex gap-4">
