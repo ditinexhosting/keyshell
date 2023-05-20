@@ -50,7 +50,6 @@ export default function Home() {
       />
       <meta name="author" content="Keyshell" />
       <Body projects={projects} />
-    
     </>
   );
 }

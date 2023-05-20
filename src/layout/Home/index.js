@@ -4,6 +4,7 @@ import Accordion from '@/components/Accordion';
 import Nav from '@/components/Nav';
 import Footer from '@/components/Footer';
 import Project from './Project';
+import Services from './Services';
 import { useState } from 'react';
 const index = (props) => {
   return (
@@ -102,6 +103,181 @@ const index = (props) => {
             </div>
           </div>
         </div>
+        <section className="bg-secondary px-5 mx-2 rounded-xl py-10 mt-10 md:mt-20">
+          <div className="flex justify-between flex-col md:flex-row gap-5 mb-5">
+            <div className="flex flex-col">
+              <h2 className="text-3xl md:text-5xl font-bold uppercase text-light-border">
+                Our Services <span className="text-primary">.</span>
+              </h2>
+              <p className="text-gray-white max-w-lg">
+                Every one of us loves something different. So, explore the world
+                through the lens of our visual capabilitie, and find what you
+                love
+              </p>
+            </div>
+            <div className="flex flex-col gap-3">
+              <div className="flex gap-3">
+                <button className="border-2 border-primary rounded-full px-4 py-1 text-primary">
+                  Web Development
+                </button>
+                <button className="border-2 border-light-border rounded-full px-4 py-1 text-light-border">
+                  AI
+                </button>
+              </div>
+              <div className="flex gap-3">
+                <button className="border-2 border-light-border rounded-full px-4 py-1 text-light-border">
+                  ML
+                </button>
+                <button className="border-2 border-light-border rounded-full px-4 py-1 text-light-border">
+                  DevOps Services
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <div>
+            <Accordion
+              sections={[
+                {
+                  title: 'Web Development',
+                  content: (
+                    <div className="flex justify-around items-center flex-col md:flex-row gap-5 ">
+                      <div className="flex flex-col gap-3">
+                        <div className="flex gap-3">
+                          <button className="border-2 border-light-border rounded-full px-4 py-1 text-light-border shrink-0">
+                            Reactjs
+                          </button>
+                          <button className="border-2 border-gray-white rounded-full px-4 py-1 text-gray-white shrink-0">
+                            Nodejs
+                          </button>
+                        </div>
+                        <div className="flex gap-3">
+                          <button className="border-2 border-gray-white rounded-full px-4 py-1 text-gray-white shrink-0">
+                            Nextjs
+                          </button>
+                          <button className="border-2 border-gray-white rounded-full px-4 py-1 text-gray-white shrink-0">
+                            Laravel
+                          </button>
+                        </div>
+                      </div>
+                      <p className="text-white max-w-xl">
+                        KeyShell is a company that specializes in innovative IT
+                        solutions, including web development, to help businesses
+                        thrive in the digital world. Their team of experts
+                        provides tailor-made solutions to clients to meet their
+                        unique needs, delivering results that help businesses
+                        grow and succeed.
+                      </p>
+                    </div>
+                  ),
+                },
+                {
+                  title: 'Mobile App Development',
+                  content: (
+                    <div className="flex justify-around items-center flex-col md:flex-row gap-5 ">
+                      <div className="flex flex-col gap-3">
+                        <div className="flex gap-3">
+                          <button className="border-2 border-light-border rounded-full px-4 py-1 text-light-border shrink-0">
+                            React Native
+                          </button>
+                          <button className="border-2 border-gray-white rounded-full px-4 py-1 text-gray-white shrink-0">
+                            Flutter
+                          </button>
+                        </div>
+                      </div>
+                      <p className="text-white max-w-xl">
+                        KeyShell provides innovative mobile app development
+                        solutions for businesses looking to expand their reach
+                        in the digital world. Our team of expert developers
+                        delivers custom-made applications that are user-friendly
+                        and responsive, helping you connect with your customers
+                        on any device. From strategy and design to deployment
+                        and maintenance, we offer end-to-end mobile app
+                        development services tailored to your unique business
+                        needs.
+                      </p>
+                    </div>
+                  ),
+                },
+                {
+                  title: 'DevOps Services',
+                  content: (
+                    <p>
+                      DevOps is a software development methodology that combines
+                      the best practices of development and operations teams to
+                      improve collaboration, communication, and productivity. It
+                      emphasizes automation, continuous integration, and
+                      continuous delivery to enable faster and more frequent
+                      releases of high-quality software. With DevOps,
+                      organizations can achieve faster time-to-market, reduced
+                      development costs, and increased customer satisfaction.
+                      DevOps also helps to create a culture of collaboration and
+                      innovation, where developers and operations teams work
+                      together to deliver better software and services.
+                    </p>
+                  ),
+                },
+                {
+                  title: 'Blockchain Technology',
+                  content: (
+                    <p>
+                      Blockchain technology is a decentralized, secure, and
+                      transparent way of storing and exchanging data. It's a
+                      distributed ledger that records transactions across a
+                      network of computers, making it virtually impossible to
+                      tamper with or hack. Blockchain has become increasingly
+                      popular due to its use in cryptocurrency transactions, but
+                      its potential applications are much broader. It can be
+                      used in supply chain management, healthcare, identity
+                      verification, and voting systems, to name a few.
+                      Blockchain technology has the potential to revolutionize
+                      many industries by providing a secure and efficient way to
+                      exchange information and value.
+                    </p>
+                  ),
+                },
+                {
+                  title: 'Artificial Intelligence',
+                  content: (
+                    <p>
+                      AI or Artificial Intelligence is the simulation of human
+                      intelligence in machines that are programmed to learn,
+                      reason, and self-correct. AI is used to create intelligent
+                      machines that can perform tasks without human
+                      intervention. It includes machine learning, natural
+                      language processing, robotics, and expert systems. AI
+                      technology is widely used in various fields such as
+                      healthcare, finance, education, and manufacturing. It has
+                      the potential to transform the way we live and work, by
+                      enabling us to make better decisions, improve efficiency,
+                      and create new opportunities.
+                    </p>
+                  ),
+                },
+                {
+                  title: 'Machine Learning',
+                  content: (
+                    <p>
+                      Machine learning (ML) is a type of artificial intelligence
+                      (AI) that allows computers to learn and improve from
+                      experience without being explicitly programmed. ML
+                      algorithms analyze data, recognize patterns, and make
+                      predictions or decisions based on that data. This
+                      technology has many practical applications, such as image
+                      and speech recognition, natural language processing,
+                      predictive analytics, and more. ML is becoming
+                      increasingly important in many industries, including
+                      finance, healthcare, and e-commerce. With its ability to
+                      automate decision-making processes and identify hidden
+                      patterns, ML has the potential to revolutionize the way
+                      businesses operate.
+                    </p>
+                  ),
+                },
+              ]}
+            />
+          </div>
+        </section>
         <section className="text-gray-600 body-font">
           <div className="container px-5 py-24 mx-auto">
             <div className="text-center mb-20">
@@ -282,7 +458,7 @@ const index = (props) => {
                       Faster lead time for changes with DevOps principles
                     </h2>
                   </div>
-                  <div className="card h-36 w-full md:w-[330px] flex flex-col gap-2 p-5 bg-[#F31702]">
+                  <div className="card h-36 w-full md:w-[330px] flex flex-col gap-2 p-5 bg-primary">
                     <h1 className="font-semibold text-3xl text-white">24X</h1>
                     <h2 className="text-white font-semibold">
                       Frequency of faster recovery from failure and minimized
@@ -406,181 +582,7 @@ const index = (props) => {
             </div>
           </div>
         </section>
-        <section className="bg-secondary px-5 mx-2 rounded-xl py-10 mt-10 md:mt-20">
-          <div className="flex justify-between flex-col md:flex-row gap-5 mb-5">
-            <div className="flex flex-col">
-              <h2 className="text-3xl md:text-5xl font-bold uppercase text-light-border">
-                Our Services <span className="text-primary">.</span>
-              </h2>
-              <p className="text-gray-white max-w-lg">
-                Every one of us loves something different. So, explore the world
-                through the lens of our visual capabilitie, and find what you
-                love
-              </p>
-            </div>
-            <div className="flex flex-col gap-3">
-              <div className="flex gap-3">
-                <button className="border-2 border-primary rounded-full px-4 py-1 text-primary">
-                  Web Development
-                </button>
-                <button className="border-2 border-light-border rounded-full px-4 py-1 text-light-border">
-                  AI
-                </button>
-              </div>
-              <div className="flex gap-3">
-                <button className="border-2 border-light-border rounded-full px-4 py-1 text-light-border">
-                  ML
-                </button>
-                <button className="border-2 border-light-border rounded-full px-4 py-1 text-light-border">
-                  DevOps Services
-                </button>
-              </div>
-            </div>
-          </div>
 
-          <div>
-            <Accordion
-              sections={[
-                {
-                  title: 'Web Development',
-                  content: (
-                    <div className="flex justify-around items-center flex-col md:flex-row gap-5 ">
-                      <div className="flex flex-col gap-3">
-                        <div className="flex gap-3">
-                          <button className="border-2 border-light-border rounded-full px-4 py-1 text-light-border shrink-0">
-                            Reactjs
-                          </button>
-                          <button className="border-2 border-gray-white rounded-full px-4 py-1 text-gray-white shrink-0">
-                            Nodejs
-                          </button>
-                        </div>
-                        <div className="flex gap-3">
-                          <button className="border-2 border-gray-white rounded-full px-4 py-1 text-gray-white shrink-0">
-                            Nextjs
-                          </button>
-                          <button className="border-2 border-gray-white rounded-full px-4 py-1 text-gray-white shrink-0">
-                            Laravel
-                          </button>
-                        </div>
-                      </div>
-                      <p className="text-white max-w-xl">
-                        KeyShell is a company that specializes in innovative IT
-                        solutions, including web development, to help businesses
-                        thrive in the digital world. Their team of experts
-                        provides tailor-made solutions to clients to meet their
-                        unique needs, delivering results that help businesses
-                        grow and succeed.
-                      </p>
-                    </div>
-                  ),
-                },
-                {
-                  title: 'Mobile App Development',
-                  content: (
-                    <div className="flex justify-around items-center flex-col md:flex-row gap-5 ">
-                      <div className="flex flex-col gap-3">
-                        <div className="flex gap-3">
-                          <button className="border-2 border-light-border rounded-full px-4 py-1 text-light-border shrink-0">
-                            React Native
-                          </button>
-                          <button className="border-2 border-gray-white rounded-full px-4 py-1 text-gray-white shrink-0">
-                            Flutter
-                          </button>
-                        </div>
-                      </div>
-                      <p className="text-white max-w-xl">
-                        KeyShell provides innovative mobile app development
-                        solutions for businesses looking to expand their reach
-                        in the digital world. Our team of expert developers
-                        delivers custom-made applications that are user-friendly
-                        and responsive, helping you connect with your customers
-                        on any device. From strategy and design to deployment
-                        and maintenance, we offer end-to-end mobile app
-                        development services tailored to your unique business
-                        needs.
-                      </p>
-                    </div>
-                  ),
-                },
-                {
-                  title: 'DevOps Services',
-                  content: (
-                    <p>
-                      DevOps is a software development methodology that combines
-                      the best practices of development and operations teams to
-                      improve collaboration, communication, and productivity. It
-                      emphasizes automation, continuous integration, and
-                      continuous delivery to enable faster and more frequent
-                      releases of high-quality software. With DevOps,
-                      organizations can achieve faster time-to-market, reduced
-                      development costs, and increased customer satisfaction.
-                      DevOps also helps to create a culture of collaboration and
-                      innovation, where developers and operations teams work
-                      together to deliver better software and services.
-                    </p>
-                  ),
-                },
-                {
-                  title: 'Blockchain Technology',
-                  content: (
-                    <p>
-                      Blockchain technology is a decentralized, secure, and
-                      transparent way of storing and exchanging data. It's a
-                      distributed ledger that records transactions across a
-                      network of computers, making it virtually impossible to
-                      tamper with or hack. Blockchain has become increasingly
-                      popular due to its use in cryptocurrency transactions, but
-                      its potential applications are much broader. It can be
-                      used in supply chain management, healthcare, identity
-                      verification, and voting systems, to name a few.
-                      Blockchain technology has the potential to revolutionize
-                      many industries by providing a secure and efficient way to
-                      exchange information and value.
-                    </p>
-                  ),
-                },
-                {
-                  title: 'Artificial Intelligence',
-                  content: (
-                    <p>
-                      AI or Artificial Intelligence is the simulation of human
-                      intelligence in machines that are programmed to learn,
-                      reason, and self-correct. AI is used to create intelligent
-                      machines that can perform tasks without human
-                      intervention. It includes machine learning, natural
-                      language processing, robotics, and expert systems. AI
-                      technology is widely used in various fields such as
-                      healthcare, finance, education, and manufacturing. It has
-                      the potential to transform the way we live and work, by
-                      enabling us to make better decisions, improve efficiency,
-                      and create new opportunities.
-                    </p>
-                  ),
-                },
-                {
-                  title: 'Machine Learning',
-                  content: (
-                    <p>
-                      Machine learning (ML) is a type of artificial intelligence
-                      (AI) that allows computers to learn and improve from
-                      experience without being explicitly programmed. ML
-                      algorithms analyze data, recognize patterns, and make
-                      predictions or decisions based on that data. This
-                      technology has many practical applications, such as image
-                      and speech recognition, natural language processing,
-                      predictive analytics, and more. ML is becoming
-                      increasingly important in many industries, including
-                      finance, healthcare, and e-commerce. With its ability to
-                      automate decision-making processes and identify hidden
-                      patterns, ML has the potential to revolutionize the way
-                      businesses operate.
-                    </p>
-                  ),
-                },
-              ]}
-            />
-          </div>
-        </section>
         <section className="text-gray-600 body-font">
           <div className="container px-5 py-24 mx-auto">
             <div className="text-center mb-20">
@@ -611,6 +613,9 @@ const index = (props) => {
               />
             </div>
           </div>
+        </section>
+        <section>
+          <Services />
         </section>
         <section className="text-gray-600 body-font">
           <div className="container px-5 mx-auto">
@@ -676,16 +681,16 @@ const index = (props) => {
                 <div className="m-4 font-bold">Subject </div>
                 <input className="border-2 border-gray-400 h-10 w-full text-gray-400 rounded p-2" />
                 <div className="m-4 font-bold">How can we help? </div>
-                <input className="border-2 border-gray-400 h-20 w-full text-gray-400 rounded p-2" />
-                <div className="bg-primary p-2 m-4 text-white w-max font-normal hover:bg-purple-700 cursor-pointer">
-                  SEND
-                </div>
+                <textarea className="border-2 border-gray-400 h-20 w-full text-gray-400 rounded p-2"></textarea>
+                <button className="bg-primary p-2 px-5 rounded-lg m-4 text-white w-max font-normal hover:bg-red-700 cursor-pointer">
+                  Send
+                </button>
               </div>
             </div>
           </div>
         </section>
       </main>
-      <Footer theme="dark" />
+      <Footer />
     </>
   );
 };
