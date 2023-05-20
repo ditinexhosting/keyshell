@@ -132,7 +132,7 @@ const index = () => {
         <div className="min-h-[350px] w-full flex flex-col md:flex-row justify-center items-center gap-x-5 lg:gap-x-0">
           <div className="left h-[320px] sm:h-[350px] w-full md:w-2/5 flex justify-center items-center">
             <Image
-              src="/images/code-typing.webp"
+              src="/images/pair_programming.svg"
               alt="variety"
               height={290}
               width={320}
@@ -163,8 +163,8 @@ const index = () => {
 
           <div className="right h-[350px] w-full md:w-2/5 flex justify-center items-center">
             <Image
-              src="/images/medal.png"
-              alt="variety"
+              src="/images/authentication.svg"
+              alt="quality"
               height={290}
               width={320}
               className="h-[290px] sm:h-[320px] w-[290px] sm:w-[320px]"

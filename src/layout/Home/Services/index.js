@@ -6,7 +6,7 @@ const index = () => {
         <div className="flex items-center  mx-auto border-b pb-10 mb-10 border-gray-800 sm:flex-row flex-col">
           <div className="sm:mr-10 inline-flex items-center justify-center rounded-full text-indigo-400 bg-white flex-shrink-0">
             <Image
-              src="/images/react-js-1024x675.jpg"
+              src="/images/react.svg"
               height={250}
               width={250}
               alt="react Dev"
@@ -40,7 +40,7 @@ const index = () => {
         <div className="flex items-center  mx-auto border-b pb-10 mb-10 border-gray-800 sm:flex-row flex-col">
           <div className="flex-grow sm:text-left text-center mt-6 sm:mt-0">
             <h2 className="text-primary text-2xl title-font font-bold mb-5">
-              KeyShell Flutter App Development
+              KeyShell Mobile  App Development
             </h2>
             <p className="leading-relaxed text-base">
               KeyShell is a leading company specializing in the development of
