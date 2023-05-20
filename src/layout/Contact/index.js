@@ -23,9 +23,11 @@ const index = () => {
                 GET IN TOUCH WITH US
               </h2>
               <p className="text-base text-gray-900 leading-relaxed mb-9">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eius tempor incididunt ut labore et dolore magna aliqua. Ut enim
-                adiqua minim veniam quis nostrud exercitation ullamco
+                We would love to hear from you! Our Contact Us page is designed
+                to provide a seamless and convenient way for you to get in touch
+                with our team at KeyShell. Whether you have a question,
+                feedback, or a potential collaboration opportunity, we are here
+                to assist you.
               </p>
             </div>
           </div>
