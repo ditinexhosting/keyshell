@@ -40,25 +40,25 @@ const index = () => {
         <div className="flex items-center  mx-auto border-b pb-10 mb-10 border-gray-800 sm:flex-row flex-col">
           <div className="flex-grow sm:text-left text-center mt-6 sm:mt-0">
             <h2 className="text-primary text-2xl title-font font-bold mb-5">
-              KeyShell Mobile  App Development
+              KeyShell Mobile App Development
             </h2>
             <p className="leading-relaxed text-base">
               KeyShell is a leading company specializing in the development of
-              cutting-edge applications, with a particular focus on Flutter. As
+              cutting-edge applications, with a particular focus on Flutter / React Native. As
               technology continues to evolve rapidly, our team at KeyShell is at
-              the forefront, leveraging the power of Flutter to create
+              the forefront, leveraging the power of Flutter / React Native to create
               exceptional mobile applications.
               <br />
               <br />
-              Flutter's robust framework allows us to build beautiful,
+              Flutter / React Native's robust framework allows us to build beautiful,
               responsive, and highly performant applications for both iOS and
-              Android platforms. With a team of skilled Flutter developers,
+              Android platforms. With a team of skilled Flutter / React Native developers,
               designers, and QA professionals, we have successfully delivered
               numerous projects that have surpassed client expectations
               <br />
               <br />
               At KeyShell, we believe in staying ahead of the curve by embracing
-              innovative technologies like Flutter, ensuring that our clients
+              innovative technologies like Flutter / React Native, ensuring that our clients
               receive top-notch applications that elevate their businesses and
               engage their users
             </p>
@@ -75,18 +75,18 @@ const index = () => {
         <div className="flex items-center  mx-auto sm:flex-row flex-col">
           <div className="sm:mr-10 inline-flex items-center justify-center rounded-full text-indigo-400 bg-white flex-shrink-0">
             <Image
-              src="/images/Mean.jpg"
+              src="/images/mern-stack.png"
               height={250}
               width={450}
-              alt="Mean Developement"
+              alt="MERN Developement"
             />
           </div>
           <div className="flex-grow sm:text-left text-center mt-6 sm:mt-0">
             <h2 className="text-primary text-2xl title-font font-bold mb-5">
-              Mean Stock Development
+              MERN Stack Development
             </h2>
             <p className="leading-relaxed text-base">
-              Mean Stock Development is a forward-thinking company specializing
+              MERN Stack Development is a forward-thinking company specializing
               in the development and implementation of advanced stock trading
               solutions. With our team of experienced developers and financial
               experts, we harness the power of cutting-edge technologies to
@@ -94,12 +94,12 @@ const index = () => {
               executing trades, and managing investment portfolios.
               <br />
               <br />
-              Utilizing the MEAN stack - MongoDB, Express.js, Angular, and
+              Utilizing the MEAN stack - MongoDB, Express.js, React, and
               Node.js - we deliver high-performance, scalable, and user-friendly
               stock trading applications that empower traders and investors to
               make informed decisions in real-time. Our commitment to staying
               ahead of market dynamics and leveraging the latest advancements in
-              technology ensures that Mean Stock Development remains at the
+              technology ensures that MERN Stack Development remains at the
               forefront of stock trading innovation, providing our clients with
               the tools they need to thrive in the ever-changing financial
               landscape.

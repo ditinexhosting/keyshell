@@ -39,37 +39,6 @@ const index = (props) => {
       </div>
       <Nav />
       <main className="container mx-auto bg-white">
-        {/* <section className="text-black body-font">
-          <div className="container mx-auto flex px-5 py-8 md:flex-row flex-col-reverse items-center gap-8">
-            <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
-              <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium">
-                DevOps Services and
-                <br className="hidden lg:inline-block" />
-                Solutions
-              </h1>
-              <p className="mb-8 leading-relaxed">
-                Our DevOps team helps organizations optimize and streamline
-                their software development lifecycle. We offer a range of
-                services including integration with cloud, continuous
-                integration and continuous delivery (CI/CD), GitOps,
-                containerization, DevSecOps, AI/ML
-              </p>
-              <div className="flex justify-center">
-                <button className="inline-flex text-white bg-primary border-0 py-2 px-6 focus:outline-none rounded-tl-xl rounded-br-xl text-lg">
-                  Let’s Talk
-                </button>
-              </div>
-            </div>
-            <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
-              <Image
-                alt="hero"
-                src="/images/devopss.png"
-                height={1000}
-                width={400}
-              />
-            </div>
-          </div>
-        </section> */}
         <div className="text-black p-4 md:p-0">
           <h1 className=" text-5xl lg:text-[7rem] leading-none font-extrabold mt-9 ">
             <span className="text-primary">Empowering</span> Your Business with
@@ -83,7 +52,7 @@ const index = (props) => {
               We've got you covered!
             </p>
             <div className="">
-              <button className="rounded-lg bg-primary p-3 px-5 font-bold text-lg text-white flex justify-center items-center gap-4  shadow-md hover:shadow-2xl transition-all">
+              <a className="rounded-lg bg-primary p-3 px-5 font-bold text-lg text-white flex justify-center items-center gap-4  shadow-md hover:shadow-2xl transition-all" href='#contact'>
                 Get a <br />
                 Quote
                 <svg
@@ -99,7 +68,7 @@ const index = (props) => {
                     fill="white"
                   />
                 </svg>
-              </button>
+              </a>
             </div>
           </div>
         </div>
@@ -661,7 +630,7 @@ const index = (props) => {
             </div>
           </div>
         </section>
-        <section>
+        <section id="contact">
           <div className="grid ">
             <div className="bg-primary h-72 flex items-center justify-center">
               <div className="flex flex-col max-w-4xl items-center justify-center">
@@ -675,13 +644,19 @@ const index = (props) => {
               <div className="h-auto bg-white -mt-20 w-[80%] md:w-1/2 text-stone-700 font-medium shadow-lg relative p-4">
                 <div className="m-4 font-bold">Your E-mail Address </div>
                 <input
-                  placeholder="admin@tailwind.org "
+                  placeholder="email@keyshell.net "
                   className="border-2 border-gray-400 h-10 w-full text-gray-400 rounded p-2"
                 />
                 <div className="m-4 font-bold">Subject </div>
-                <input className="border-2 border-gray-400 h-10 w-full text-gray-400 rounded p-2" />
+                <input
+                  className="border-2 border-gray-400 h-10 w-full text-gray-400 rounded p-2"
+                  placeholder="Enquiry"
+                />
                 <div className="m-4 font-bold">How can we help? </div>
-                <textarea className="border-2 border-gray-400 h-20 w-full text-gray-400 rounded p-2"></textarea>
+                <textarea
+                  className="border-2 border-gray-400 h-20 w-full text-gray-400 rounded p-2"
+                  placeholder="Details Overview"
+                ></textarea>
                 <button className="bg-primary p-2 px-5 rounded-lg m-4 text-white w-max font-normal hover:bg-red-700 cursor-pointer">
                   Send
                 </button>
