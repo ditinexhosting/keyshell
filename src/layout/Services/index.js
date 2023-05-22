@@ -25,7 +25,7 @@ const index = (props) => {
           </div>
         </div>
         <div>
-          <ServicesCard />
+          <ServicesCard sectionsList={props.sectionsList}/>
         </div>
       </section>
       <section className="mb-20">

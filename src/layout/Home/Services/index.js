@@ -4,7 +4,7 @@ const index = () => {
     <section className="text-secondary body-font">
       <div className="container px-5 py-24 mx-auto">
         <div className="flex items-center  mx-auto border-b pb-10 mb-10 border-gray-800 sm:flex-row flex-col">
-          <div className="sm:mr-10 inline-flex items-center justify-center rounded-full text-indigo-400 bg-white flex-shrink-0">
+          <div className="sm:mr-10 inline-flex items-center justify-center rounded-full  bg-white flex-shrink-0">
             <Image
               src="/images/react.svg"
               height={250}
@@ -73,7 +73,7 @@ const index = () => {
           </div>
         </div>
         <div className="flex items-center  mx-auto sm:flex-row flex-col">
-          <div className="sm:mr-10 inline-flex items-center justify-center rounded-full text-indigo-400 bg-white flex-shrink-0">
+          <div className="sm:mr-10 inline-flex items-center justify-center rounded-full  bg-white flex-shrink-0">
             <Image
               src="/images/mern-stack.png"
               height={250}

@@ -86,8 +86,8 @@ const index = (props) => {
       </div>
       <div className="flex justify-between my-10 text-black flex-col md:flex-row gap-10 items-center">
         <p>
-          <a href="www.ditinex.com">Ditinex</a> © {new Date().getFullYear()}
-          Keyshell - All Rights Reserved
+          <a href="www.ditinex.com">Ditinex</a> © 2023 Keyshell -
+          All Rights Reserved
         </p>
         <div className="flex gap-10">
           <a>Privacy policy</a>
