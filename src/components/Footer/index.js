@@ -5,16 +5,16 @@ const index = (props) => {
       <div className="flex justify-between flex-col md:flex-row gap-10 items-center">
         <ul className="text-black flex gap-4">
           <li>
-            <a href="#">About</a>
+            <a href="/">Home</a>
           </li>
           <li>
-            <a href="#">Services</a>
+            <a href="/about-us">About</a>
           </li>
           <li>
-            <a href="#">Project</a>
+            <a href="/services">Services</a>
           </li>
           <li>
-            <a href="#">Contact</a>
+            <a href="/contact">Contact</a>
           </li>
         </ul>
         <div className="flex gap-8 item-center">
@@ -85,7 +85,10 @@ const index = (props) => {
         </div>
       </div>
       <div className="flex justify-between my-10 text-black flex-col md:flex-row gap-10 items-center">
-        <p>© {new Date().getFullYear()} Keyshell</p>
+        <p>
+          <a href="www.ditinex.com">Ditinex</a> © 2023 Keyshell -
+          All Rights Reserved
+        </p>
         <div className="flex gap-10">
           <a>Privacy policy</a>
           <a>Terms & Agreements</a>

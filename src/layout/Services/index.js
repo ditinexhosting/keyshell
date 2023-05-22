@@ -1,92 +1,56 @@
 import Image from 'next/image';
 import Card from '@/components/Card';
-
-const index = () => {
-  const cards = [
-    {
-      image: '/images/git.webp',
-      cardHeading: 'Installation and Initial Server Setup Assistance',
-      col: 4,
-    },
-    {
-      image: '/images/server.webp',
-      cardHeading: 'Server Hardening',
-      col: 4,
-    },
-    {
-      image: '/images/cloud-computing.webp',
-      cardHeading: 'Server Optimization',
-      col: 4,
-    },
-    {
-      image: '/images/cpanel.svg',
-      cardHeading: 'Migration Assistance',
-      col: 4,
-    },
-    {
-      image: '/images/optimization.webp',
-      cardHeading: 'Server Monitoring',
-      col: 4,
-    },
-    {
-      image: '/images/chatbot.webp',
-      cardHeading: 'Automate the server using tools such as Ansible, chef',
-      col: 4,
-    },
-    {
-      image: '/images/hacker.webp',
-      cardHeading: 'Hack & Spamming Issue Investigation',
-      col: 4,
-    },
-    {
-      image: '/images/training.webp',
-      cardHeading: 'Industrial Training',
-      col: 4,
-    },
-    {
-      image: '/images/app-development.webp',
-      cardHeading: 'App development',
-      col: 4,
-    },
-    {
-      image: '/images/world-wide-web.webp',
-      cardHeading: 'Web development',
-      col: 4,
-    },
-  ];
-
+import Project from '../Home/Project';
+import ServicesCard from './ServicesCard';
+const index = (props) => {
   return (
-    <section className="px-5 sm:px-10 lg:px-20 py-14">
-      <div className="container min-h-[60vh] flex flex-col md:flex-row justify-center items-center gap-x-10 gap-y-8 sm:gap-y-0">
-        <div className="left min-h-96 md:min-h-[60vh] w-full md:w-2/5 flex justify-center items-center">
-          <Image
-            src="/images/Service 24_7-pana.svg"
-            height={80}
-            width={80}
-            alt="24/7"
-            className="h-80 w-80"
-          />
-        </div>
-        <div className="right flex justify-center items-center min-h-[250px] md:min-h-[60vh] w-full md:w-2/5">
-          <h3 className="font-semibold text-lg lg:text-xl text-[#333]">
-            We provide server support for various companies. Experienced server
-            admins, contribute support to Linux, Windows, and AWS servers. 24*7
-            services are available. Our experienced techs will provide server
-            hardening, 24/7 server monitoring &amp; rescue, backup monitoring,
-            and audits.
-          </h3>
-        </div>
+    <section className="px-5 sm:px-10 lg:px-20">
+      <div className="container">
+        <h1 className=" text-4xl lg:text-[7rem] leading-none font-extrabold my-3 text-secondary mb-10">
+          Discover How We've Helped
+          <span className="text-primary"> Clients Succeed</span> with Our
+          Cutting-Edge Services
+        </h1>
       </div>
+      <section className="bg-secondary px-5 mx-2 rounded-xl py-10 mb-10 md:mb-20">
+        <div className="flex justify-between flex-col md:flex-row gap-5 mb-5">
+          <div className="flex flex-col">
+            <h2 className="text-3xl md:text-5xl font-bold uppercase text-light-border mb-5">
+              Our Services <span className="text-primary">.</span>
+            </h2>
+            <p className="text-gray-white max-w-lg">
+              Every one of us loves something different. So, explore the world
+              through the lens of our visual capabilitie, and find what you love
+            </p>
+          </div>
+        </div>
+        <div>
+          <ServicesCard sectionsList={props.sectionsList}/>
+        </div>
+      </section>
+      <section className="mb-20">
+        <div className="container px-5 mx-auto">
+          <div className="text-center mb-10">
+            <h1 className="sm:text-3xl text-2xl font-medium title-font text-gray-900 mb-4">
+              Project Portfolio
+            </h1>
+            <div className="flex mt-6 justify-center">
+              <div className="w-16 h-1 rounded-full bg-primary inline-flex" />
+            </div>
+          </div>
+          <Project projects={props.projects} />
+        </div>
+      </section>
       <div className="text-center mb-20">
         <h1 className="sm:text-3xl text-2xl font-medium title-font text-gray-900 mb-4">
-          Services That We Provide
+          Additional Services / Assistance
         </h1>
         <div className="flex mt-6 justify-center">
           <div className="w-16 h-1 rounded-full bg-primary inline-flex" />
         </div>
       </div>
       <div className="flex flex-wrap sm:-m-4 -mx-4 -mb-10 -mt-4 md:space-y-0 space-y-6 justify-center">
-        {cards.map((card, index) => (
+        {props.cards.map((card, index) => (
           <Card
             key={index}
             image={card.image}
