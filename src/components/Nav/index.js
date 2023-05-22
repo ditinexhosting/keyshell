@@ -7,10 +7,7 @@ const navigation = [
   { name: 'Services', href: '/services', current: false },
   { name: 'Contact ', href: '/contact', current: false },
 ];
-
-function classNames(...classes) {
-  return classes.filter(Boolean).join(' ');
-}
+  
 const index = () => {
   return (
     <div>
