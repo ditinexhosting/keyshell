@@ -10,7 +10,6 @@ const index = () => {
   const [subject, setSubject] = useState('');
   const [message, setMessage] = useState('');
 
-
   const handleSubmit = (event) => {
     event.preventDefault();
 
@@ -22,7 +21,7 @@ const index = () => {
       subject,
       message,
     };
-
+    console.log(payload);
     if (Object.values(payload).some((value) => value === '')) {
       alert('Fields are empty. Cannot submit the form.');
       return;
@@ -283,7 +282,7 @@ const index = () => {
           </div>
         </div>
         <div className="grow-0 shrink-0 basis-auto mb-12 md:mb-0 w-full md:w-6/12 px-3 lg:px-6">
-          <form onSubmit={handleSubmit} className='mt-10 md:mt-0'>
+          <form onSubmit={handleSubmit} className="mt-10 md:mt-0">
             <div className="floating-form">
               <div className="relative mb-[50px]">
                 <input

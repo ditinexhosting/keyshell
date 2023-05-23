@@ -23,10 +23,13 @@ const index = () => {
       alert('Fields are empty. Cannot submit the form.');
       return;
     }
+    const headers = {
+      'Content-Type': 'application/json',
+    };
 
     // Send the POST request to the API endpoint
     axios
-      .post('https://www.keyshell.net/mail/email.php', payload)
+      .post('https://www.keyshell.net/mail/email.php', payload, { headers })
       .then((response) => {
         // Handle the response if needed
         console.log(response);
@@ -72,7 +75,7 @@ const index = () => {
           </div>
           <div className="w-full lg:w-1/2 xl:w-5/12 px-4">
             <div className="bg-white relative rounded-lg p-8 sm:p-12 shadow-lg">
-              <form className='text-primary' onSubmit={handleSubmit}>
+              <form className="text-primary" onSubmit={handleSubmit}>
                 <div className="mb-6 ">
                   <input
                     type="text"
