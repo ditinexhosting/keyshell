@@ -1,4 +1,43 @@
+import { useState } from 'react';
+import axios from 'axios';
 const index = () => {
+  const [name, setName] = useState('');
+  const [email, setEmail] = useState('');
+  const [phone, setPhone] = useState('');
+  const [subject, setSubject] = useState('');
+  const [message, setMessage] = useState('');
+
+  const handleSubmit = (event) => {
+    event.preventDefault();
+
+    // Create the payload object
+    const payload = {
+      name,
+      email,
+      phone,
+      subject,
+      message,
+    };
+
+    if (Object.values(payload).some((value) => value === '')) {
+      alert('Fields are empty. Cannot submit the form.');
+      return;
+    }
+
+    // Send the POST request to the API endpoint
+    axios
+      .post('https://www.keyshell.net/mail/email.php', payload)
+      .then((response) => {
+        // Handle the response if needed
+        console.log(response);
+        alert('Sucess');
+      })
+      .catch((error) => {
+        // Handle errors if any
+        console.error(error);
+        alert('Someting Went Wrong');
+      });
+  };
   return (
     <section className="bg-white py-20 lg:py-[120px] overflow-hidden relative z-10 px-5 md:px-20">
       <div className="container">
@@ -33,107 +72,61 @@ const index = () => {
           </div>
           <div className="w-full lg:w-1/2 xl:w-5/12 px-4">
             <div className="bg-white relative rounded-lg p-8 sm:p-12 shadow-lg">
-              <form>
-                <div className="mb-6">
+              <form className='text-primary' onSubmit={handleSubmit}>
+                <div className="mb-6 ">
                   <input
                     type="text"
                     placeholder="Your Name"
-                    className="
-                    w-full
-                    rounded
-                    py-3
-                    px-[14px]
-                    text-body-color text-base
-                    border border-[f0f0f0]
-                    outline-none
-                    focus-visible:shadow-none
-                    focus:border-primary
-                    "
+                    className="w-full rounded py-3 px-[14px] text-body-color text-base border border-[f0f0f0] outline-none focus-visible:shadow-none focus:border-primary"
+                    required
+                    value={name}
+                    onChange={(e) => setName(e.target.value)}
                   />
                 </div>
                 <div className="mb-6">
                   <input
                     type="email"
                     placeholder="Your Email"
-                    className="
-                    w-full
-                    rounded
-                    py-3
-                    px-[14px]
-                    text-body-color text-base
-                    border border-[f0f0f0]
-                    outline-none
-                    focus-visible:shadow-none
-                    focus:border-primary
-                    "
+                    className="w-full rounded py-3 px-[14px] text-body-color text-base border border-[f0f0f0] outline-none focus-visible:shadow-none focus:border-primary"
+                    required
+                    value={email}
+                    onChange={(e) => setEmail(e.target.value)}
                   />
                 </div>
                 <div className="mb-6">
                   <input
                     type="text"
                     placeholder="Your Phone"
-                    className="
-                    w-full
-                    rounded
-                    py-3
-                    px-[14px]
-                    text-body-color text-base
-                    border border-[f0f0f0]
-                    outline-none
-                    focus-visible:shadow-none
-                    focus:border-primary
-                    "
+                    className="w-full rounded py-3 px-[14px] text-body-color text-base border border-[f0f0f0] outline-none focus-visible:shadow-none focus:border-primary"
+                    required
+                    value={phone}
+                    onChange={(e) => setPhone(e.target.value)}
                   />
                 </div>
                 <div className="mb-6">
                   <input
                     type="text"
                     placeholder="Subject"
-                    className="
-                    w-full
-                    rounded
-                    py-3
-                    px-[14px]
-                    text-body-color text-base
-                    border border-[f0f0f0]
-                    outline-none
-                    focus-visible:shadow-none
-                    focus:border-primary
-                    "
+                    className="w-full rounded py-3 px-[14px] text-body-color text-base border border-[f0f0f0] outline-none focus-visible:shadow-none focus:border-primary"
+                    required
+                    value={subject}
+                    onChange={(e) => setSubject(e.target.value)}
                   />
                 </div>
                 <div className="mb-6">
                   <textarea
                     rows={6}
                     placeholder="Your Message"
-                    className="
-                    w-full
-                    rounded
-                    py-3
-                    px-[14px]
-                    text-body-color text-base
-                    border border-[f0f0f0]
-                    resize-none
-                    outline-none
-                    focus-visible:shadow-none
-                    focus:border-primary
-                    "
-                    defaultValue={''}
-                  />
+                    className="w-full rounded py-3 px-[14px] text-body-color text-base border border-[f0f0f0] resize-none outline-none focus-visible:shadow-none focus:border-primary"
+                    required
+                    value={message}
+                    onChange={(e) => setMessage(e.target.value)}
+                  ></textarea>
                 </div>
                 <div>
                   <button
                     type="submit"
-                    className="
-                    w-full
-                    text-white
-                    bg-primary
-                    rounded
-                    border border-primary
-                    p-3
-                    transition
-                    hover:bg-opacity-90
-                    "
+                    className="w-full text-white bg-primary rounded border border-primary p-3 transition hover:bg-opacity-90"
                   >
                     Send Message
                   </button>

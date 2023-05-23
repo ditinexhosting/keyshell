@@ -23,9 +23,14 @@ const index = () => {
         </div>
         <div className="flex items-start  mx-auto  sm:flex-row flex-col">
           <div className="flex-grow sm:text-left text-center mt-6 sm:mt-0">
-            <h2 className="text-primary text-2xl title-font font-bold mb-5 text-justify">
-              The Problem
-            </h2>
+            <div className="flex items-baseline justify-between mb-5">
+              <h2 className="text-primary text-2xl title-font font-bold mb-5 text-justify">
+                The Problem
+              </h2>
+              <button className="hover:text-primary hover:bg-white font-bold text-md border-2 border-primary rounded-full px-3 py-2 text-white bg-primary pointer transition-colors">
+                Book a Call
+              </button>
+            </div>
             <p className="leading-relaxed text-base text-justify">
               In today's fast-paced business environment, keeping your employees
               up-to-date with the latest knowledge and skills is crucial to
