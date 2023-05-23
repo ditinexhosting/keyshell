@@ -23,13 +23,10 @@ const index = () => {
       alert('Fields are empty. Cannot submit the form.');
       return;
     }
-    const headers = {
-      'Content-Type': 'application/json',
-    };
 
     // Send the POST request to the API endpoint
     axios
-      .post('https://www.keyshell.net/mail/email.php', payload, { headers })
+      .post('https://www.keyshell.net/mail/email.php', payload)
       .then((response) => {
         // Handle the response if needed
         console.log(response);
