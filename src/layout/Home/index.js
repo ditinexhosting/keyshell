@@ -32,7 +32,7 @@ const index = (props) => {
               <i className="fa-solid fa-envelope text-primary text-xs md:text-base"></i>
             </span>
             <p className="font-semibold text-xs md:text-base text-secondary">
-              keyshell3455@gmail.com
+              keyshellitsolutions@gmail.com
             </p>
           </div>
         </div>
@@ -52,7 +52,10 @@ const index = (props) => {
               We've got you covered!
             </p>
             <div className="">
-              <a className="rounded-lg bg-primary p-3 px-5 font-bold text-lg text-white flex justify-center items-center gap-4  shadow-md hover:shadow-2xl transition-all" href='#contact'>
+              <a
+                className="rounded-lg bg-primary p-3 px-5 font-bold text-lg text-white flex justify-center items-center gap-4 shadow-md hover:shadow-2xl transition-all w-min"
+                href="#contact"
+              >
                 Get a <br />
                 Quote
                 <svg

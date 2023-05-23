@@ -166,7 +166,7 @@ const index = () => {
                 className="text-primary font-bold text-2xl cursor-pointer"
                 onMouseEnter={handelHover}
               >
-                keyshell3455@gmail.com
+                keyshellitsolutions@gmail.com
               </a>
             </div>
             <div>

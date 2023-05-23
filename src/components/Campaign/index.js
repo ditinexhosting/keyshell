@@ -1,5 +1,5 @@
 import Image from 'next/image';
-import Contact from './Contact';
+import Contact from '../Contact';
 
 const index = () => {
   return (
