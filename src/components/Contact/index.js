@@ -1,8 +1,46 @@
 import Image from 'next/image';
 import { useState } from 'react';
+import axios from 'axios';
 const index = () => {
   const [callIcon, setCallIcon] = useState('block');
   const [mailIcon, setMailIcon] = useState('none');
+  const [name, setName] = useState('');
+  const [email, setEmail] = useState('');
+  const [phone, setPhone] = useState('');
+  const [subject, setSubject] = useState('');
+  const [message, setMessage] = useState('');
+
+  const handleSubmit = (event) => {
+    event.preventDefault();
+
+    // Create the payload object
+    const payload = {
+      name,
+      email,
+      phone,
+      subject,
+      message,
+    };
+    console.log(payload);
+    if (Object.values(payload).some((value) => value === '')) {
+      alert('Fields are empty. Cannot submit the form.');
+      return;
+    }
+
+    // Send the POST request to the API endpoint
+    axios
+      .post('https://www.keyshell.net/mail/email.php', payload)
+      .then((response) => {
+        // Handle the response if needed
+        console.log(response);
+        alert('Sucess');
+      })
+      .catch((error) => {
+        // Handle errors if any
+        console.error(error);
+        alert('Someting Went Wrong');
+      });
+  };
   const handelHover = (e) => {
     if (e.target.id === 'mail') {
       setCallIcon('none');
@@ -166,11 +204,11 @@ const index = () => {
                 className="text-primary font-bold text-2xl cursor-pointer"
                 onMouseEnter={handelHover}
               >
-                keyshell3455@gmail.com
+                keyshellitsolutions@gmail.com
               </a>
             </div>
             <div>
-              <div className="border-2 rounded-full p-2 border-black">
+              <div className="border-2 rounded-full p-2 border-black hidden md:block">
                 <svg
                   width="38"
                   style={{ display: callIcon }}
@@ -244,34 +282,67 @@ const index = () => {
           </div>
         </div>
         <div className="grow-0 shrink-0 basis-auto mb-12 md:mb-0 w-full md:w-6/12 px-3 lg:px-6">
-          <form>
+          <form onSubmit={handleSubmit} className="mt-10 md:mt-0">
             <div className="floating-form">
               <div className="relative mb-[50px]">
-                <input className="floating-input" type="text" placeholder=" " />
+                <input
+                  className="floating-input"
+                  type="text"
+                  placeholder=" "
+                  value={name}
+                  onChange={(e) => setName(e.target.value)}
+                  required
+                />
                 <label>Name</label>
               </div>
               <div className="relative mb-[50px]">
-                <input className="floating-input" type="text" placeholder=" " />
+                <input
+                  className="floating-input"
+                  type="text"
+                  placeholder=" "
+                  value={email}
+                  onChange={(e) => setEmail(e.target.value)}
+                  required
+                />
                 <label>Email</label>
               </div>
               <div className="relative mb-[50px]">
-                <input className="floating-input" type="text" placeholder=" " />
+                <input
+                  className="floating-input"
+                  type="text"
+                  placeholder=" "
+                  value={phone}
+                  onChange={(e) => setPhone(e.target.value)}
+                  required
+                />
                 <label>Phone</label>
               </div>
               <div className="relative mb-[50px]">
-                <input className="floating-input" type="text" placeholder=" " />
+                <input
+                  className="floating-input"
+                  type="text"
+                  placeholder=" "
+                  value={subject}
+                  onChange={(e) => setSubject(e.target.value)}
+                  required
+                />
                 <label>Subject</label>
               </div>
-
               <div className="relative mb-[50px]">
                 <textarea
                   className="floating-input floating-textarea"
                   placeholder=" "
+                  value={message}
+                  onChange={(e) => setMessage(e.target.value)}
+                  required
                 ></textarea>
                 <label>Message</label>
               </div>
               <div className="float-right">
-                <button className="rounded-full bg-primary p-3 px-7 font-bold text-lg text-white flex justify-center items-center gap-4 shadow-md hover:shadow-2xl transition-all">
+                <button
+                  className="rounded-full bg-primary p-3 px-7 font-bold text-lg text-white flex justify-center items-center gap-4 shadow-md hover:shadow-2xl transition-all"
+                  type="submit"
+                >
                   Get a <br />
                   Quote
                   <svg

@@ -6,7 +6,43 @@ import Footer from '@/components/Footer';
 import Project from './Project';
 import Services from './Services';
 import { useState } from 'react';
+import axios from 'axios';
 const index = (props) => {
+  const [name, setName] = useState('');
+  const [email, setEmail] = useState('');
+  const [phone, setPhone] = useState('');
+  const [subject, setSubject] = useState('');
+  const [message, setMessage] = useState('');
+
+  const handleSubmit = (event) => {
+    event.preventDefault();
+
+    // Create the payload object
+    const payload = {
+      name,
+      email,
+      phone,
+      subject,
+      message,
+    };
+
+    if (Object.values(payload).some((value) => value === '')) {
+      alert('Fields are empty. Cannot submit the form.');
+      return;
+    }
+    axios
+      .post('https://www.keyshell.net/mail/email.php', payload)
+      .then((response) => {
+        // Handle the response if needed
+        console.log(response);
+        alert('Sucess');
+      })
+      .catch((error) => {
+        // Handle errors if any
+        console.error(error);
+        alert('Someting Went Wrong');
+      });
+  };
   return (
     <>
       <div className="h-auto w-full bg-gray-200 flex justify-between gap-5 px-6 md:px-11 items-center py-[5px] sm:py-[6px] shadow-lg">
@@ -32,7 +68,7 @@ const index = (props) => {
               <i className="fa-solid fa-envelope text-primary text-xs md:text-base"></i>
             </span>
             <p className="font-semibold text-xs md:text-base text-secondary">
-              keyshell3455@gmail.com
+              keyshellitsolutions@gmail.com
             </p>
           </div>
         </div>
@@ -52,7 +88,10 @@ const index = (props) => {
               We've got you covered!
             </p>
             <div className="">
-              <a className="rounded-lg bg-primary p-3 px-5 font-bold text-lg text-white flex justify-center items-center gap-4  shadow-md hover:shadow-2xl transition-all" href='#contact'>
+              <a
+                className="rounded-lg bg-primary p-3 px-5 font-bold text-lg text-white flex justify-center items-center gap-4 shadow-md hover:shadow-2xl transition-all w-min"
+                href="#contact"
+              >
                 Get a <br />
                 Quote
                 <svg
@@ -640,28 +679,58 @@ const index = (props) => {
                 </div>
               </div>
             </div>
-            <div className="bg-white h-auto flex justify-center items-center">
-              <div className="h-auto bg-white -mt-20 w-[80%] md:w-1/2 text-stone-700 font-medium shadow-lg relative p-4">
-                <div className="m-4 font-bold">Your E-mail Address </div>
-                <input
-                  placeholder="email@keyshell.net "
-                  className="border-2 border-gray-400 h-10 w-full text-gray-400 rounded p-2"
-                />
-                <div className="m-4 font-bold">Subject </div>
-                <input
-                  className="border-2 border-gray-400 h-10 w-full text-gray-400 rounded p-2"
-                  placeholder="Enquiry"
-                />
-                <div className="m-4 font-bold">How can we help? </div>
-                <textarea
-                  className="border-2 border-gray-400 h-20 w-full text-gray-400 rounded p-2"
-                  placeholder="Details Overview"
-                ></textarea>
-                <button className="bg-primary p-2 px-5 rounded-lg m-4 text-white w-max font-normal hover:bg-red-700 cursor-pointer">
-                  Send
-                </button>
+            <form onSubmit={handleSubmit}>
+              <div className="bg-white h-auto flex justify-center items-center">
+                <div className="h-auto bg-white -mt-20 w-[80%] md:w-1/2 text-stone-700 font-medium shadow-lg relative p-4">
+                  <div className="m-4 font-bold">Your Name</div>
+                  <input
+                    placeholder="John Doe"
+                    className="border-2 border-gray-400 h-10 w-full text-gray-900 rounded p-2"
+                    value={name}
+                    onChange={(e) => setName(e.target.value)}
+                  />
+
+                  <div className="m-4 font-bold">Your E-mail Address</div>
+                  <input
+                    placeholder="email@keyshell.net"
+                    className="border-2 border-gray-400 h-10 w-full text-gray-900 rounded p-2"
+                    value={email}
+                    onChange={(e) => setEmail(e.target.value)}
+                  />
+
+                  <div className="m-4 font-bold">Phone Number</div>
+                  <input
+                    placeholder="123-456-7890"
+                    className="border-2 border-gray-400 h-10 w-full text-gray-900 rounded p-2"
+                    value={phone}
+                    onChange={(e) => setPhone(e.target.value)}
+                  />
+
+                  <div className="m-4 font-bold">Subject</div>
+                  <input
+                    className="border-2 border-gray-400 h-10 w-full text-gray-900 rounded p-2"
+                    placeholder="Enquiry"
+                    value={subject}
+                    onChange={(e) => setSubject(e.target.value)}
+                  />
+
+                  <div className="m-4 font-bold">How can we help?</div>
+                  <textarea
+                    className="border-2 border-gray-400 h-20 w-full text-gray-900 rounded p-2"
+                    placeholder="Details Overview"
+                    value={message}
+                    onChange={(e) => setMessage(e.target.value)}
+                  ></textarea>
+
+                  <button
+                    type="submit"
+                    className="bg-primary p-2 px-5 rounded-lg m-4 text-white w-max font-normal hover:bg-red-700 cursor-pointer"
+                  >
+                    Send
+                  </button>
+                </div>
               </div>
-            </div>
+            </form>
           </div>
         </section>
       </main>

@@ -99,6 +99,36 @@ const services = () => {
         '/images/services/image-5.png',
       ],
     },
+    {
+      id: 2,
+      title: 'Mobile App Development',
+      url: '/campaign/mobile-app-development',
+      description:
+        'Our mobile app development services help businesses create powerful and engaging applications for iOS and Android platforms. We combine cutting-edge technology with user-centric design to deliver high-performance mobile apps that meet your business goals. Whether you need a native app, a cross-platform solution, or a mobile web app, our team of experienced developers can turn your ideas into reality. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
+  
+      images: [
+        '/images/services/mobile-app-image-1.png',
+        '/images/services/mobile-app-image-2.png',
+        '/images/services/mobile-app-image-3.png',
+        '/images/services/mobile-app-image-4.png',
+        '/images/services/mobile-app-image-5.png',
+      ],
+    },
+    {
+      id: 3,
+      title: 'DevOps Services',
+      url: '/campaign/devops-services',
+      description:
+        'Our DevOps services help organizations streamline their software development and delivery processes, enabling faster time to market and improved efficiency. We employ industry best practices and cutting-edge tools to automate infrastructure provisioning, continuous integration, and continuous deployment. With our DevOps expertise, your team can focus on innovation and delivering value to your customers. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
+  
+      images: [
+        '/images/services/devops-image-1.png',
+        '/images/services/devops-image-2.png',
+        '/images/services/devops-image-3.png',
+        '/images/services/devops-image-4.png',
+        '/images/services/devops-image-5.png',
+      ],
+    },
   ];
   return (
     <>

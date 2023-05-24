@@ -4,7 +4,7 @@ const index = (props) => {
   return (
     <div>
       {props.sectionsList.map((section) => (
-        <div key={section.id}>
+        <div key={section.id} className='mb-20'>
           <div>
             <div>
               <div>
@@ -32,7 +32,7 @@ const index = (props) => {
                   key={index}
                   src={imageSrc}
                   height={100}
-                  className="object-fill h-auto w-auto"
+                  className="object-fill h-auto w-auto max-h-[70px]"
                   width={100}
                   alt="logo"
                 />
