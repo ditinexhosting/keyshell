@@ -7,37 +7,33 @@ const services = () => {
       id: 1,
       title: 'Swipe Crush',
       href: 'https://play.google.com/store/apps/details?id=com.swipecrush',
-      desc: 'React Native App',
+      desc: 'React Native App : Dating App to locate nearby people who have crush on you. ',
       imageSrc: '/images/projects/swipe-crush.jpg',
-      imageAlt:
-        'Tall slender porcelain bottle with natural clay textured body and cork stopper.',
+      imageAlt: 'Swipe Crush',
     },
     {
       id: 2,
       title: 'Safe Path',
       href: ' https://play.google.com/store/apps/details?id=com.ditinex.safepath',
-      desc: '$35',
+      desc: 'React Native App : Map of mine which will generate shortest path to nearest safe point in case of accident',
       imageSrc: '/images/projects/safepath.png',
-      imageAlt:
-        'Olive drab green insulated bottle with flared screw lid and flat top.',
+      imageAlt: 'Safe Path',
     },
     {
       id: 3,
       title: 'Classified',
       href: 'https://classifiled.com/',
-      desc: 'React Native App',
+      desc: 'Wordpress Site :  A modern way of managing your digital documents. ',
       imageSrc: '/images/projects/classfied.png',
-      imageAlt:
-        'Person using a pen to cross a task off a productivity paper card.',
+      imageAlt: 'Classified',
     },
     {
       id: 4,
       title: 'UAE Storage',
       href: 'https://admin.uaestorages.com',
-      desc: 'React Native App',
+      desc: 'React JS Dashboard : Dashboard for analytics of shipping company.',
       imageSrc: '/images/projects/UAE.png',
-      imageAlt:
-        'Person using a pen to cross a task off a productivity paper card.',
+      imageAlt: 'UAE Storage',
     },
   ];
   const servicesCards = [

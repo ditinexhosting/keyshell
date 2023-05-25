@@ -5,6 +5,7 @@ import Nav from '@/components/Nav';
 import Footer from '@/components/Footer';
 import Project from './Project';
 import Services from './Services';
+import { useRouter } from 'next/router';
 import { useState } from 'react';
 import axios from 'axios';
 const index = (props) => {
@@ -13,6 +14,7 @@ const index = (props) => {
   const [phone, setPhone] = useState('');
   const [subject, setSubject] = useState('');
   const [message, setMessage] = useState('');
+  const router = useRouter();
 
   const handleSubmit = (event) => {
     event.preventDefault();
@@ -34,8 +36,9 @@ const index = (props) => {
       .post('https://www.keyshell.net/mail/email.php', payload)
       .then((response) => {
         // Handle the response if needed
-        console.log(response);
-        alert('Sucess');
+        // console.log(response);
+        // alert('Sucess');
+        router.push('/thank-you');
       })
       .catch((error) => {
         // Handle errors if any
@@ -58,7 +61,7 @@ const index = (props) => {
               <i className="fa-solid fa-phone-volume pt-[2px] text-primary text-xs md:text-base"></i>
             </span>
             <p className="font-semibold text-xs md:text-base text-secondary">
-              +91 8867676785
+              +91 8129571359
             </p>
           </div>
 
