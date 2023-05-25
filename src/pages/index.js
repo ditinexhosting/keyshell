@@ -8,28 +8,37 @@ export default function Home() {
   const projects = [
     {
       id: 1,
-      title: 'Earthen Bottle',
-      href: '#',
-      desc: 'Tall slender porcelain bottle with natural clay textured body and cork stopper.',
-      imageSrc: '/images/asp.webp',
+      title: 'Swipe Crush',
+      href: 'https://play.google.com/store/apps/details?id=com.swipecrush',
+      desc: 'React Native App',
+      imageSrc: '/images/projects/swipe-crush.jpg',
       imageAlt:
         'Tall slender porcelain bottle with natural clay textured body and cork stopper.',
     },
     {
       id: 2,
-      title: 'Nomad Tumbler',
-      href: '#',
+      title: 'Safe Path',
+      href: ' https://play.google.com/store/apps/details?id=com.ditinex.safepath',
       desc: '$35',
-      imageSrc: '/images/asp.webp',
+      imageSrc: '/images/projects/safepath.png',
       imageAlt:
         'Olive drab green insulated bottle with flared screw lid and flat top.',
     },
     {
       id: 3,
-      title: 'Focus Paper Refill',
-      href: '#',
-      desc: '$89',
-      imageSrc: '/images/asp.webp',
+      title: 'Classified',
+      href: 'https://classifiled.com/',
+      desc: 'React Native App',
+      imageSrc: '/images/projects/classfied.png',
+      imageAlt:
+        'Person using a pen to cross a task off a productivity paper card.',
+    },
+    {
+      id: 4,
+      title: 'UAE Storage',
+      href: 'https://admin.uaestorages.com',
+      desc: 'React Native App',
+      imageSrc: '/images/projects/UAE.png',
       imageAlt:
         'Person using a pen to cross a task off a productivity paper card.',
     },

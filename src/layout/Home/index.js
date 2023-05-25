@@ -634,36 +634,24 @@ const index = (props) => {
               <div className="flex mt-6 justify-center">
                 <div className="w-16 h-1 rounded-full bg-primary inline-flex" />
               </div>
-              <div className="flex justify-between items-center mt-5 flex-col md:flex-row gap-5 flex-wrap">
+              <div className="flex justify-evenly items-center mt-5 flex-col md:flex-row gap-5 flex-wrap">
                 <Image
-                  src="/images/google.jpeg"
+                  src="/images/client/client-1.png"
                   height={100}
                   width={160}
-                  alt="logo"
+                  alt="clients"
                 />
                 <Image
-                  src="/images/Flipkart_logo.png"
+                  src="/images/client/client-2.jpg"
                   height={100}
                   width={160}
-                  alt="logo"
+                  alt="clients"
                 />
                 <Image
-                  src="/images/amazon.webp"
+                  src="/images/client/client-3.png"
                   height={100}
                   width={160}
-                  alt="logo"
-                />
-                <Image
-                  src="/images/8867.webp"
-                  height={100}
-                  width={160}
-                  alt="logo"
-                />
-                <Image
-                  src="/images/8867.webp"
-                  height={100}
-                  width={160}
-                  alt="logo"
+                  alt="clients"
                 />
               </div>
             </div>

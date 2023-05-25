@@ -5,28 +5,37 @@ const services = () => {
   const projects = [
     {
       id: 1,
-      title: 'Earthen Bottle',
-      href: '#',
-      desc: 'Tall slender porcelain bottle with natural clay textured body and cork stopper.',
-      imageSrc: '/images/asp.webp',
+      title: 'Swipe Crush',
+      href: 'https://play.google.com/store/apps/details?id=com.swipecrush',
+      desc: 'React Native App',
+      imageSrc: '/images/projects/swipe-crush.jpg',
       imageAlt:
         'Tall slender porcelain bottle with natural clay textured body and cork stopper.',
     },
     {
       id: 2,
-      title: 'Nomad Tumbler',
-      href: '#',
+      title: 'Safe Path',
+      href: ' https://play.google.com/store/apps/details?id=com.ditinex.safepath',
       desc: '$35',
-      imageSrc: '/images/asp.webp',
+      imageSrc: '/images/projects/safepath.png',
       imageAlt:
         'Olive drab green insulated bottle with flared screw lid and flat top.',
     },
     {
       id: 3,
-      title: 'Focus Paper Refill',
-      href: '#',
-      desc: '$89',
-      imageSrc: '/images/asp.webp',
+      title: 'Classified',
+      href: 'https://classifiled.com/',
+      desc: 'React Native App',
+      imageSrc: '/images/projects/classfied.png',
+      imageAlt:
+        'Person using a pen to cross a task off a productivity paper card.',
+    },
+    {
+      id: 4,
+      title: 'UAE Storage',
+      href: 'https://admin.uaestorages.com',
+      desc: 'React Native App',
+      imageSrc: '/images/projects/UAE.png',
       imageAlt:
         'Person using a pen to cross a task off a productivity paper card.',
     },
@@ -105,7 +114,7 @@ const services = () => {
       url: '/campaign/mobile-app-development',
       description:
         'Our mobile app development services help businesses create powerful and engaging applications for iOS and Android platforms. We combine cutting-edge technology with user-centric design to deliver high-performance mobile apps that meet your business goals. Whether you need a native app, a cross-platform solution, or a mobile web app, our team of experienced developers can turn your ideas into reality. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
-  
+
       images: [
         '/images/services/mobile-app-image-1.png',
         '/images/services/mobile-app-image-2.png',
@@ -120,7 +129,7 @@ const services = () => {
       url: '/campaign/devops-services',
       description:
         'Our DevOps services help organizations streamline their software development and delivery processes, enabling faster time to market and improved efficiency. We employ industry best practices and cutting-edge tools to automate infrastructure provisioning, continuous integration, and continuous deployment. With our DevOps expertise, your team can focus on innovation and delivering value to your customers. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
-  
+
       images: [
         '/images/services/devops-image-1.png',
         '/images/services/devops-image-2.png',
@@ -133,7 +142,11 @@ const services = () => {
   return (
     <>
       <Nav />
-      <Services projects={projects} cards={servicesCards} sectionsList={sectionsList} />
+      <Services
+        projects={projects}
+        cards={servicesCards}
+        sectionsList={sectionsList}
+      />
       <Footer />
     </>
   );
