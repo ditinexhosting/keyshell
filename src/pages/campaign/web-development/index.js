@@ -11,27 +11,15 @@ const index = () => {
         <h1 className="text-4xl md:text-7xl font-bold md:mb-10 mb-5">
           Introducing our Extraordinary Website Experience
         </h1>
-        {/* <div className="flex items-center gap-2 justify-start my-5">
-          <div className="rounded-full border-2 text-sm p-2 px-4 shrink-0">
-            Android
-          </div>
-          <div className="rounded-full border-2 text-sm p-2 px-4 shrink-0">
-            Windows
-          </div>
-          <div className="rounded-full border-2 text-sm p-2 px-4 shrink-0">
-            Iso
-          </div>
-          <div className="w-full h-[2px] bg-gray-400 hidden md:block mx-2"></div>
-        </div> */}
         <div className="flex items-start  mx-auto  sm:flex-row flex-col">
           <div className="flex-grow sm:text-left text-center mt-6 sm:mt-0">
             <div className="flex items-baseline justify-between mb-5">
               <h2 className="text-primary text-2xl title-font font-bold mb-5 text-justify">
                 Cutting-Edge Web Solutions
               </h2>
-              <button className="hover:text-primary hover:bg-white font-bold text-md border-2 border-primary rounded-full px-3 py-2 text-white bg-primary pointer transition-colors">
+              <a href='#contact' className="hover:text-primary hover:bg-white font-bold text-md border-2 border-primary rounded-full px-3 py-2 text-white bg-primary pointer transition-colors">
                 Book a Call
-              </button>
+              </a>
             </div>
             <p className="leading-relaxed text-base text-justify">
               At our cutting-edge website, we excel in providing unmatched web

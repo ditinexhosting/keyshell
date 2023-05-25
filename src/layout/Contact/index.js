@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import { useRouter } from 'next/router';
 import axios from 'axios';
 const index = () => {
   const [name, setName] = useState('');
@@ -6,6 +7,7 @@ const index = () => {
   const [phone, setPhone] = useState('');
   const [subject, setSubject] = useState('');
   const [message, setMessage] = useState('');
+  const router = useRouter();
 
   const handleSubmit = (event) => {
     event.preventDefault();
@@ -29,12 +31,13 @@ const index = () => {
       .post('https://www.keyshell.net/mail/email.php', payload)
       .then((response) => {
         // Handle the response if needed
-        console.log(response);
-        alert('Sucess');
+        // console.log(response);
+        // alert('Sucess');
+        router.push('/thank-you');
       })
       .catch((error) => {
         // Handle errors if any
-        console.error(error);
+        // console.error(error);
         alert('Someting Went Wrong');
       });
   };

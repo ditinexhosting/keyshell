@@ -8,30 +8,35 @@ export default function Home() {
   const projects = [
     {
       id: 1,
-      title: 'Earthen Bottle',
-      href: '#',
-      desc: 'Tall slender porcelain bottle with natural clay textured body and cork stopper.',
-      imageSrc: '/images/asp.webp',
-      imageAlt:
-        'Tall slender porcelain bottle with natural clay textured body and cork stopper.',
+      title: 'Swipe Crush',
+      href: 'https://play.google.com/store/apps/details?id=com.swipecrush',
+      desc: 'React Native App : Dating App to locate nearby people who have crush on you. ',
+      imageSrc: '/images/projects/swipe-crush.jpg',
+      imageAlt: 'Swipe Crush',
     },
     {
       id: 2,
-      title: 'Nomad Tumbler',
-      href: '#',
-      desc: '$35',
-      imageSrc: '/images/asp.webp',
-      imageAlt:
-        'Olive drab green insulated bottle with flared screw lid and flat top.',
+      title: 'Safe Path',
+      href: ' https://play.google.com/store/apps/details?id=com.ditinex.safepath',
+      desc: 'React Native App : Map of mine which will generate shortest path to nearest safe point in case of accident',
+      imageSrc: '/images/projects/safepath.png',
+      imageAlt: 'Safe Path',
     },
     {
       id: 3,
-      title: 'Focus Paper Refill',
-      href: '#',
-      desc: '$89',
-      imageSrc: '/images/asp.webp',
-      imageAlt:
-        'Person using a pen to cross a task off a productivity paper card.',
+      title: 'Classified',
+      href: 'https://classifiled.com/',
+      desc: 'Wordpress Site :  A modern way of managing your digital documents. ',
+      imageSrc: '/images/projects/classfied.png',
+      imageAlt: 'Classified',
+    },
+    {
+      id: 4,
+      title: 'UAE Storage',
+      href: 'https://admin.uaestorages.com',
+      desc: 'React JS Dashboard : Dashboard for analytics of shipping company.',
+      imageSrc: '/images/projects/UAE.png',
+      imageAlt: 'UAE Storage',
     },
   ];
   return (
