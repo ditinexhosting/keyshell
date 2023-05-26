@@ -44,23 +44,24 @@ const index = () => {
             </h2>
             <p className="leading-relaxed text-base">
               KeyShell is a leading company specializing in the development of
-              cutting-edge applications, with a particular focus on Flutter / React Native. As
-              technology continues to evolve rapidly, our team at KeyShell is at
-              the forefront, leveraging the power of Flutter / React Native to create
-              exceptional mobile applications.
+              cutting-edge applications, with a particular focus on Flutter /
+              React Native. As technology continues to evolve rapidly, our team
+              at KeyShell is at the forefront, leveraging the power of Flutter /
+              React Native to create exceptional mobile applications.
               <br />
               <br />
-              Flutter / React Native's robust framework allows us to build beautiful,
-              responsive, and highly performant applications for both iOS and
-              Android platforms. With a team of skilled Flutter / React Native developers,
-              designers, and QA professionals, we have successfully delivered
-              numerous projects that have surpassed client expectations
+              Flutter / React Native's robust framework allows us to build
+              beautiful, responsive, and highly performant applications for both
+              iOS and Android platforms. With a team of skilled Flutter / React
+              Native developers, designers, and QA professionals, we have
+              successfully delivered numerous projects that have surpassed
+              client expectations
               <br />
               <br />
               At KeyShell, we believe in staying ahead of the curve by embracing
-              innovative technologies like Flutter / React Native, ensuring that our clients
-              receive top-notch applications that elevate their businesses and
-              engage their users
+              innovative technologies like Flutter / React Native, ensuring that
+              our clients receive top-notch applications that elevate their
+              businesses and engage their users
             </p>
           </div>
           <div className=" order-first sm:order-none sm:ml-10 inline-flex items-center justify-center rounded-full  bg-white flex-shrink-0">
@@ -94,11 +95,11 @@ const index = () => {
               executing trades, and managing investment portfolios.
               <br />
               <br />
-              Utilizing the MEAN stack - MongoDB, Express.js, React, and
-              Node.js - we deliver high-performance, scalable, and user-friendly
-              stock trading applications that empower traders and investors to
-              make informed decisions in real-time. Our commitment to staying
-              ahead of market dynamics and leveraging the latest advancements in
+              Utilizing the MEAN stack - MongoDB, Express.js, React, and Node.js
+              - we deliver high-performance, scalable, and user-friendly stock
+              trading applications that empower traders and investors to make
+              informed decisions in real-time. Our commitment to staying ahead
+              of market dynamics and leveraging the latest advancements in
               technology ensures that MERN Stack Development remains at the
               forefront of stock trading innovation, providing our clients with
               the tools they need to thrive in the ever-changing financial

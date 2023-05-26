@@ -17,7 +17,10 @@ const index = () => {
               <h2 className="text-primary text-2xl title-font font-bold mb-5 text-justify">
                 Cutting-Edge Web Solutions
               </h2>
-              <a href='#contact' className="hover:text-primary hover:bg-white font-bold text-md border-2 border-primary rounded-full px-3 py-2 text-white bg-primary pointer transition-colors">
+              <a
+                href="#contact"
+                className="hover:text-primary hover:bg-white font-bold text-md border-2 border-primary rounded-full px-3 py-2 text-white bg-primary pointer transition-colors"
+              >
                 Book a Call
               </a>
             </div>

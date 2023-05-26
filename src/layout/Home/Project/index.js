@@ -8,7 +8,10 @@ export default function Index({ projects }) {
           {projects.map((project) => (
             <a key={project.id} href={project.href} className="group">
               <div className="h-48 w-full ">
-                <div className='h-full w-full bg-cover rounded hover:opacity-75' style={{ backgroundImage: `url(${project.imageSrc})` }}></div>
+                <div
+                  className="h-full w-full bg-cover rounded hover:opacity-75"
+                  style={{ backgroundImage: `url(${project.imageSrc})` }}
+                ></div>
               </div>
               <h3 className="mt-1 text-lg font-medium text-gray-900 ">
                 {project.title}

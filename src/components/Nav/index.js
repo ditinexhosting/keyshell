@@ -7,7 +7,7 @@ const navigation = [
   { name: 'Services', href: '/services', current: false },
   { name: 'Contact ', href: '/contact', current: false },
 ];
-  
+
 const index = () => {
   return (
     <div>
