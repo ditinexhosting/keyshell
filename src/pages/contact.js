@@ -6,8 +6,7 @@ const contact = () => {
     <>
       <Nav />
       <Contact />
-      <Footer/>
-
+      <Footer />
     </>
   );
 };

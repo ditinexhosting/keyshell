@@ -37,7 +37,6 @@ const index = () => {
         // console.log(response);
         // alert('Sucess');
         router.push('/thank-you');
-
       })
       .catch((error) => {
         // Handle errors if any

@@ -80,7 +80,7 @@ const index = () => {
                   and make data-driven decisions.
                 </li>
               </ul>
-              <p className='text-justify'>
+              <p className="text-justify">
                 At Keyshell we understand that every business has unique
                 learning needs. That's why we offer a customized mobile learning
                 app solution that is tailored to your specific requirements.

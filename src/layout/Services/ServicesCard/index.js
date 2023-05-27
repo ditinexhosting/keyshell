@@ -4,7 +4,7 @@ const index = (props) => {
   return (
     <div>
       {props.sectionsList.map((section) => (
-        <div key={section.id} className='mb-20'>
+        <div key={section.id} className="mb-20">
           <div>
             <div>
               <div>
