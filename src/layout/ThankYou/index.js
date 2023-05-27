@@ -1,9 +1,14 @@
 import React, { useEffect } from 'react';
-import { useRouter } from 'next/router';
+import Script from 'next/script';
 
 const index = () => {
   return (
     <div className="flex items-center justify-center min-h-screen p-5 bg-white min-w-screen">
+      <Script id="google-tag-manager" strategy="afterInteractive">
+        {`
+        gtag('event', 'conversion', {'send_to': 'AW-11191982993/TGqiCMaUxaQYEJG34Ngp'});
+        `}
+      </Script>
       <div className="max-w-xl p-8 text-center text-gray-800 bg-white shadow-xl lg:max-w-3xl rounded-3xl lg:p-12">
         <h3 className="text-2xl">Thank You!</h3>
         <div className="flex justify-center">
