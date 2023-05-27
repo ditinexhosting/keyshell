@@ -1,6 +1,6 @@
 import Image from 'next/image';
 import { Inter } from 'next/font/google';
-
+import Analytics from '@/components/Analytics';
 import Body from '@/layout/Home';
 const inter = Inter({ subsets: ['latin'] });
 
@@ -54,6 +54,7 @@ export default function Home() {
         content="Keyshell, IT Solutions, Business, Innovation"
       />
       <meta name="author" content="Keyshell" />
+      <Analytics />
       <Body projects={projects} />
     </>
   );
