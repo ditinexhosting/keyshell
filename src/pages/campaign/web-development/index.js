@@ -3,9 +3,11 @@ import Image from 'next/image';
 import Nav from '@/components/Nav';
 import Footer from '@/components/Footer';
 import Contact from '@/components/Contact';
+import Analytics from '@/components/Analytics';
 const index = () => {
   return (
     <>
+      <Analytics />
       <Nav />
       <main className="container mx-auto my-10 text-secondary px-5">
         <h1 className="text-4xl md:text-7xl font-bold md:mb-10 mb-5">

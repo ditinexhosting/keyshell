@@ -1,6 +1,7 @@
 import Services from '@/layout/Services';
 import Nav from '@/components/Nav';
 import Footer from '@/components/Footer';
+import Analytics from '@/components/Analytics';
 const services = () => {
   const projects = [
     {
@@ -137,6 +138,7 @@ const services = () => {
   ];
   return (
     <>
+      <Analytics />
       <Nav />
       <Services
         projects={projects}

@@ -26,20 +26,22 @@ const index = () => {
       return;
     }
 
+    router.push('/thank-you');
+
     // Send the POST request to the API endpoint
-    axios
-      .post('https://www.keyshell.net/mail/email.php', payload)
-      .then((response) => {
-        // Handle the response if needed
-        // console.log(response);
-        // alert('Sucess');
-        router.push('/thank-you');
-      })
-      .catch((error) => {
-        // Handle errors if any
-        // console.error(error);
-        alert('Someting Went Wrong');
-      });
+    // axios
+    //   .post('https://www.keyshell.net/mail/email.php', payload)
+    //   .then((response) => {
+    //     // Handle the response if needed
+    //     // console.log(response);
+    //     // alert('Sucess');
+    //     router.push('/thank-you');
+    //   })
+    //   .catch((error) => {
+    //     // Handle errors if any
+    //     // console.error(error);
+    //     alert('Someting Went Wrong');
+    //   });
   };
   return (
     <section className="bg-white py-20 lg:py-[120px] overflow-hidden relative z-10 px-5 md:px-20">
