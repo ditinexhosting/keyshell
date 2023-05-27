@@ -37,7 +37,7 @@ const index = () => {
         // console.log(response);
         // alert('Sucess');
         //router.push('/thank-you', { query: { param: 'formSubmitted' } });
-        window.location = '/thank-you?form=true';
+        window.location = '/thank-you';
       })
       .catch((error) => {
         // Handle errors if any

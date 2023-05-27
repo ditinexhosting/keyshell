@@ -6,10 +6,10 @@ const index = () => {
   const router = useRouter();
 
   useEffect(() => {
-    if (window.location.search) {
-      location.replace('/thank-you');
-      //location.reload();
-    }
+    // if (window.location.search) {
+    //   location.replace('/thank-you');
+    //   //location.reload();
+    // }
   }, []);
 
   return (
