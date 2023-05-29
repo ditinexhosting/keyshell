@@ -1,11 +1,15 @@
 import Image from 'next/image';
 import Contact from '../Contact';
-
+import Nav from '@/components/Nav';
+import Footer from '@/components/Footer';
+import Analytics from '@/components/Analytics';
 const index = () => {
   return (
     <>
+      <Analytics />
+      <Nav />
       <main className="container mx-auto my-10 text-secondary px-5">
-        <h1 className="text-4xl md:text-7xl font-bold">Mobile Learning App</h1>
+        <h1 className="text-4xl md:text-7xl font-bold">Dummy Services</h1>
         <div className="flex items-center gap-2 justify-start my-5">
           <div className="rounded-full border-2 text-sm p-2 px-4 shrink-0">
             Android
@@ -102,6 +106,7 @@ const index = () => {
         </div>
         <Contact />
       </main>
+      <Footer />
     </>
   );
 };

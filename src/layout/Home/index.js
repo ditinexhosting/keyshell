@@ -48,34 +48,6 @@ const index = (props) => {
   };
   return (
     <>
-      <div className="h-auto w-full bg-gray-200 flex justify-between gap-5 px-6 md:px-11 items-center py-[5px] sm:py-[6px] shadow-lg">
-        <div className="flex flex-wrap gap-y-0 gap-x-5 items-start md:items-center">
-          <div className="flex items-center gap-2">
-            <span>
-              <Image
-                src="/images/phone-call.png"
-                alt="call"
-                height={30}
-                width={30}
-              />
-              <i className="fa-solid fa-phone-volume pt-[2px] text-primary text-xs md:text-base"></i>
-            </span>
-            <p className="font-semibold text-xs md:text-base text-secondary">
-              +91 8129571359
-            </p>
-          </div>
-
-          <div className="flex items-center gap-2">
-            <span>
-              <Image src="/images/mail.png" alt="call" height={30} width={30} />
-              <i className="fa-solid fa-envelope text-primary text-xs md:text-base"></i>
-            </span>
-            <p className="font-semibold text-xs md:text-base text-secondary">
-              keyshellitsolutions@gmail.com
-            </p>
-          </div>
-        </div>
-      </div>
       <Nav />
       <main className="container mx-auto bg-white">
         <div className="text-black p-4 md:p-0">

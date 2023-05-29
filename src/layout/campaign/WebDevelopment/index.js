@@ -1,13 +1,10 @@
-import Campaign from '@/components/Campaign';
 import Image from 'next/image';
 import Nav from '@/components/Nav';
 import Footer from '@/components/Footer';
 import Contact from '@/components/Contact';
-import Analytics from '@/components/Analytics';
 const index = () => {
   return (
     <>
-      <Analytics />
       <Nav />
       <main className="container mx-auto my-10 text-secondary px-5">
         <h1 className="text-4xl md:text-7xl font-bold md:mb-10 mb-5">
@@ -15,7 +12,7 @@ const index = () => {
         </h1>
         <div className="flex items-start  mx-auto  sm:flex-row flex-col">
           <div className="flex-grow sm:text-left text-center mt-6 sm:mt-0">
-            <div className="flex items-baseline justify-between mb-5">
+            <div className="flex items-baseline justify-between mb-5 flex-col md:flex-row">
               <h2 className="text-primary text-2xl title-font font-bold mb-5 text-justify">
                 Cutting-Edge Web Solutions
               </h2>
@@ -51,10 +48,6 @@ const index = () => {
               <h2 className="text-primary text-2xl title-font font-bold mb-5 text-justify">
                 The Process of Building Your Dream Website
               </h2>
-              {/* <p className="leading-relaxed text-base text-justify">
-                Some of the key features of our mobile learning app solution
-                include:
-              </p> */}
               <ul>
                 <li className="my-5 text-justify">
                   <h3 className="text-primary font-bold text-md inline text-justify mr-2">
